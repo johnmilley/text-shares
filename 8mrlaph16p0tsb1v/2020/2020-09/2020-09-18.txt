@@ -1,0 +1,95 @@
+Date: September 18, 2020 at 00:00:00 AM NST
+
+
+
+# September 18, 2020
+
+> **Sleep:** Poor. Woke multiple times.  
+> **Exercise:**  None. I deserve a break.
+> **Reading:**  DUNE, a few pages. Joyce's The Dead. A few pages.
+
+## Brief Notes
+- how can I pull in brief notes into this section with a quick action? unsure...
+- [ date + time ] - briefnote text
+- 2:16 PM: This is a test of the new _Insert Time_ action. Success!
+
+---
+ 
+## Entries
+
+Brief Notes. Listening to a podcast with [Tim Nahumck](https://nahumck.me). He's one of the go-to people for interesting uses of the Drafts iOS app. 
+
+I am attempting to mimic his journaling template, but I want to automate the **Brief Notes** section above to append notes on a daily basis with the press of an action. I _think_ that it's possible with JavaScript scripting... which I am only beginning to look into.
+
+Brief Notes pseudocode:
+1. Grab all drafts with a "briefnote" tag.
+2. Make a list of each draft.
+3. Grab secondary headers in draft.
+4. Append all drafts to header == "Brief Notes" (unsure if possible)
+	 * check for duplicates here _or_ simply clear existing text and re-insert all daily "briefnote" drafts
+
+9:15 PM: : Having success filling out the necessary actions for journaling. Appending to the bottom was easier to script, so that's where it is staying for now. I don't think there is a way access a DOM-like structure of a draft. That would be cool thought.
+
+10:30 PM: I have spent most of the night on this stuff. Time to give it a little rest. Shortcuts has many frustrating limitations. WHY CAN'T I GET THE PATH TO A FILE ON ICLOUD! I can get it fine on PC. It doesn't make any sense.
+
+Early this week I took Marianne and Theodore to Dollarama for Hatchimals. Theodore eyed a cap gun for $1. Caps were $1.50. He scooped up both along with his 2 for $4 pack of Hatchimals.
+
+The cap gun broke the next day.
+
+I purchased another on my way home from work on Wednesday.
+
+
+
+Rebecca enrolled the kids in soccer on Tuesday and they had their first session on Thursday. They were all smiles. Sweethearts.
+
+12:50 AM: Justice Ginsberg has died.
+
+12:56 AM:  Work on yourself. 
+
+Keeping an honest record is a gift of growth. 
+
+Automate growth. Initialize it. Mute the voices that scream and whisper that 'you can't do it.'
+
+Think about the universe, our society. Think about family, think about the things that I do and the the things that have been done. Words. Capture the words of my children. Gift them their voices. Gift them the history that they gave fully to us. They now begin to pull away. They go day by day by day by day. They surely slip away. [Surely, they slip away]
+
+Megan Gail Coles. Incredible voice. Her pages are vocal—they attack you in high fidelity.
+
+Ok, this has been a good good day of writing. The best one in a while. Keep your stick on the ice.
+
+ 1:39 AM: We watch too much of this as kids, I think: [Fleischer Studio Films](https://en.m.wikipedia.org/wiki/Fleischer_Studios). Haven't yet found the video/episodes/whatever we watched at one point as kids, repeatedly.
+
+ 1:42 AM: RIP Ruth. I was once in the same city as you at the same time. Berkeley, October 21, 2019. I walked by the room where hours later you would inspire. In the moment, and ever after, I wish I could have attended. It was closed to the deserved few who studied the law and who loved her. 
+
+---
+
+## Photo(s)
+
+![Joyce covering his ears.](https://www.dropbox.com/s/pne1302l7l56een/IMG_0169-2.jpeg?dl=1)
+
+Stalled for a couple of days on page 150 (or thereabouts) of Ulysses. I will get back to it tomorrow. I will read that final long paragraph in-context—yes I said yes I will Yes. (It's a fools trip. It's a beautiful thing.)
+
+![Lawrence in outfit #3—day-care overalls. ](https://www.dropbox.com/s/46vz9obj8eg2vuu/IMG_1639.jpeg?dl=1)
+
+Day-care loaned overalls. Our kids didn't have enough overalls. How cute is this?
+
+![U.S. Supreme Court Justice Ruth Bader Ginsburg gives Berkeley Law’s inaugural Herma Hill Kay Memorial Lecture in Zellerbach Hall on Oct. 21, 2019. (Berkeley Law photo by Jim Block)](https://www.dropbox.com/s/kn285mwn94ddn5g/IMG_0176-2.jpeg?dl=1)
+
+---
+## Brief Notes
+7:20 PM:  watching Theodore play Minecraft for daddy time. 
+
+
+7:21 PM:  Testing out my new journaling actions. Inspired by Tim Mahumck. Attempting to bring more code in my day to day to life. Automation is a useful hobby for that. 
+
+
+ 7:42 PM:  Theodore's friend Riley has a Minecraft mask and book bag. He does **not** play Minecraft. 
+
+
+ 8:12 PM:  I watched Marianne play Minecraft for daddy time. She enjoys creative mode. She's been playing a lot of SM3DW lately. She's a gamer. 
+
+
+ 8:26 PM:  T to M, teasing— Kindergarteners don't change teams (soccer). I heard it online. 
+
+---
+
+

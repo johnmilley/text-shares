@@ -1,0 +1,32 @@
+Date: November 8, 2020 at 00:00:00 AM NST
+
+
+
+# November 08, 2020
+
+**Exercise:** no
+
+**Reading:** no
+
+**Food:** enchilada leftovers for lunch and HV for supper
+
+---
+
+## Entries
+
+
+
+
+---
+
+
+## Brief Notes
+
+
+ 1:16 PM:  just about finished the prototype of domineering. Need to add collision detection (preview piece not drawn, cannot place a piece)
+
+
+---
+
+
+

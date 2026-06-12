@@ -1,0 +1,48 @@
+Date: March 11, 2012 at 00:00:00 AM NST
+
+
+
+March 11, 2012.
+
+I've decided on a first project.  I will build a simple calculator, maybe adding some functions that I find I use often enough for it to be useful to me.  Why create something that isn't useful?  Add a factorial function... think of others.  I hope to spend a few days designing the program and sit down and write a GUI midweek.  Before coding I should have a good idea of what functions to include.
+
+Goals of finished product:
+1. Easy to use
+2. Functional
+3. Extendable
+
+Goals of this exercise:
+1. Document all changes
+2. Learn GUIs in java
+3. Upload to Github to practice version control
+4. Have fun! :)
+
+
+March 12, 2012
+
+I learned a little about the Java swing package yesterday.  I'll have to make extensive use of that for this project.  Also, I'll have to make sure I package the program correctly.  Buttons/Graphics in one package, functions in another?  Something anyways.  
+
+As to the functionality I was thinking of implementing a second interface that would have common conversions build in: temperature, cooking measurements, and others?  Maybe I could attempt to develop this for Android afterwards and actually use it.
+
+
+...
+
+I think I'm going about this in the right way... taking my time with the idea, thinking of the design, and finding the resources necessary (java tutorials in this case) to make it happen.  We'll see.  If not tomorrow, then Wednesday I'll be ready to sit down and have a go at some Java GUI stuffs.
+
+
+April 28, 2012
+
+Well... I certainly dropped this idea.  Maybe I'll come back to it... though not anytime in the near near future.
+
+Feburary 26, 2013
+
+I've recently made a calculator in Objective C for the iphone course.  Fun
+times.   There have been some take aways from the project - the same that I
+learned (and should have retained) in graphics.  Domain knowledge is
+incredibly important and should be sought out before putting a thought into
+the coding.  It wasn't until I was halfway through coding the project that I
+actually picked up a calculator and played around with it.  There were a
+number of things that I haven't even considered that become absolutely
+essential to it's proper representation in code.  Anyhoo... calculator done? 
+
+

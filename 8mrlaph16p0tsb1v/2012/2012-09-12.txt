@@ -1,0 +1,10 @@
+Date: September 12, 2012 at 00:00:00 AM NST
+
+
+
+Sept 19, 2012 - Sudoku Problem and Wasted Time
+
+	I was tackling a common programming assignment problem today and realizes after about an hour or so that I was going about it in completely the wrong way.  I was trying to brute force an answer. Like cracking a password... it ain't a good idea.  Learn the problem.  Really get a feel for what it's asking you to produce.  Before putting finger to keyboard, allow yourself an adventure.  Delve into the greater pict... ok enough of that.  For example, this problem was on coding a Sudoku checker - a simple C program that checks whether a given 9x9 matrix is in fact a valid, completed, Sudoku puzzle.  I had more than a general idea about how to go about doing it so I figured why not just go ahead and start coding?  Big mistake.  I wasted at least an hour by forgetting a very basic rule of sudoku (that the 3x3 grid needed to be checked as well... embarassing, yes).  That could have easily been prevented by spending 10-20minutes doing some thinking about the game and about traversing a large matrix.
+	Anyways, my point, and my advice to myself, is to always know a problem completely before searching/rushing for an answer.
+
+

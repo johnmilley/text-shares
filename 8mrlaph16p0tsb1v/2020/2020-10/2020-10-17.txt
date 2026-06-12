@@ -1,0 +1,62 @@
+Date: October 17, 2020 at 00:00:00 AM NST
+
+
+
+# October 17, 2020
+
+**Sleep:**  it was ok. 
+
+**Exercise:** a run?
+
+**Reading:** tkinter docs
+
+**Food:** We bought Mary Browns on our return home from the pumpkins patch. We waited 30minutes for it. Oi. 
+
+---
+
+## Entries
+
+ 1:00 PM:  At Theodore's hockey practice. He's learning to stay up straighter when skating fast. Great to see him eagerly learn. He gets a lot of support. Great program. 
+
+### Pumpkin Patch
+
+E&J met us at Wights family farm for some corn row running, wagon riding, rotten pumpkin finding fun. Good times had by all. We opted to grab a pumpkin at a grocery store sometime this week. 
+
+
+
+---
+
+
+## Brief Notes
+
+
+ 1:25 PM:  windows, widgets, and geometry managers (layout). Learning a basic GUI builder is long overdue. Today I'm learning about Tkinter. Starting to focus more on software dev. Over web dev. I want to be good at my job and building things and showing others how to build things will be how I do that.  
+
+
+ 9:24 PM:  using lambdas as wrappers in a tkinter button command parameter. Let's see if I understand that sentence in 10 years.
+
+
+10:44 PM:  PEP 8 
+
+[PEP 8 -- Style Guide for Python Code | Python.org](https://www.python.org/dev/peps/pep-0008/)
+
+> Readability counts
+
+
+11:00 PM:  
+
+[How to Write Beautiful Python Code With PEP 8 – Real Python](https://realpython.com/python-pep8/)
+
+> 79 character line limit recommended in PEP 8
+
+
+11:43 PM:  It is time to start reminding myself of what is important every five goddamn minutes. Things have gotten out of hand. 
+
+I have failed at optimizing my privilege. I have failed in keeping any ball rolling and rolling and rolling. I long for consistency and honesty and a good night's sleep. Each season delivers hope.  
+ 
+
+
+---
+
+
+

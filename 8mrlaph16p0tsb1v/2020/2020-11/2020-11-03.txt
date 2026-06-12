@@ -1,0 +1,71 @@
+Date: November 3, 2020 at 00:00:00 AM NST
+
+
+
+# November 03, 2020
+
+**Exercise:** Will try and get for a walk...
+
+**Reading:** Dai Greatcoat, she can not find him anywhere—
+
+**Food:** Pork and potatoes (last night: Not so great tacos and kid-refused Spanish rice)
+
+---
+
+## Entries
+
+Well. Today is the day. 
+
+Today is the day that America decides if the collective moan continues for another four years. I do not believe America will last another four years of Trump and the morally bankrupt Republican party—disgusting human beings, the lot of them. 
+
+Today is the day.
+
+
+
+---
+
+
+## Brief Notes
+
+
+10:34 AM:  white birds fly around her; little fish come to her feet. Marianne — The Brothers Four. A doozy. 
+
+
+ 1:06 PM:  the oop course I am teaching the winter (if Eileen really retires) has the students learning to use OOP to build a GUI business tool. I need to come up with something to build now. Gather data, create class UML, build program logic, build GUI, companion CLI option? 
+
+Address book (lame)
+Scheduler (given a list of schedules, figure out the optimal time to have a meeting. Set thresholds(ie 75% attendance necessary)
+
+Ok the scheduler is an interesting problem. My project could be based on faculty schedules, the students can work on one that make were sense for them.  Various program schedules versus individual faculty schedules. Think more about this. 
+
+Ok what else.
+
+Simple calendar app that uses GUI to add events. 
+
+
+
+
+
+
+11:57 PM:  don't shut down. Not now. Start moving on. Whatever happens—keep moving. 
+
+
+
+
+12:12 AM:  I am not brave. 
+
+
+12:24 AM:  there is a lot of dread in the world at this moment. a lot of idiotic faux-hope of great making, too. 
+
+
+12:26 AM:  this isn't writing. Use the right tools, you dummy. 
+
+
+12:27 AM:  speaking of idiotic... my diet is garbage. 
+
+
+
+---
+
+
+

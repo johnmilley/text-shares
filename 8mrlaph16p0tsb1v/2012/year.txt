@@ -1,0 +1,331 @@
+Date: March 3, 2012 at 00:00:00 AM NST
+
+
+
+March 3 2012
+
+This is a new thing I'm starting that I believe will be much more beneficial then any blog could be.  I'm writing my thoughts in a simple text file each day I remember to do so. It feels a like a completely sensible and worthwhile thing to do.
+
+Going to Carbonnear today to visit Rebecca's family.  Should be a relaxing day and a nice break away from the fog I've found myself in the past week or so. I need to 'see' my doings for what they are - simple, brainless wastes of time.  It really does not matter what browser/editor/OS I'm using as long as I'm actually using it.  Fiddling around with settings and all that nonsense is only well and good after continued and meaningful use.  After an extended period of use I'll better know what shortcomings a particular application may have and how I could alter its behaviour.  For instance, right now I'm thinking about how vim continues a word on another line.  This is something I could look into changing.  Right now the important thing is to write those words.  
+
+Ok, couldn't wait.  Checking out some solutions right now.  Some are suggesting saving the journal files as .wiki.  Foling isn't something necessarily that I need - simple command searching and regex (a reason to learn) will probably suffice.  Another suggestions is a user created journal (JNL) system - txtfmt.webs.com/jnlandtxtfmt.htm .  I'll leave it alone for now and send my efforts elsewhere.
+
+Tomorrow is going to be a busy, yet productive day.  Going to learn some JavaScript and hopefully get the assignment finished or at least well under way.  I'll finish the domain diagram for the third 3716 assignment.  Also, I'll hope to at least finish the video portions of the udacity course.
+
+
+
+
+Date: March 4, 2012 at 00:00:00 AM NST
+
+
+
+March 4 2012
+
+It was nice finally seeing the house in Kingston and I look forward to spending a night there in the summer.  
+
+Rebecca took the second pregnancy test of the week and it has come back negative.  She is disappointed but I believe it will happen soon.  This is, perhaps, going to be the week of happenings.  My co-op position (if any) will be decided, as will Rebecca's job at Grenfell.
+
+The week ahead is a busy one..
+
+Tuesday: adfinitum interview
+Wednesday: Theory midterm
+Thursday: software, networking assignment
+Friday: Logic midterm
+
+I suppose I could leave all that for it's own particular day though now couldn't I!
+
+Going to go to bed with a good book tonight.  
+March 3 2012
+
+This is a new thing I'm starting that I believe will be much more beneficial then any blog could be.  I'm writing my thoughts in a simple text file each day I remember to do so. It feels a like a completely sensible and worthwile thing to do.
+
+Going to Carbonnear today to visit Rebecca's family.  Should be a relaxing day and a nice break away from the fog I've found myself in the past week or so. I need to 'see' my doings for what they are - simple, brainless wastes of time.  It really does not matter what browser/editor/OS I'm using as long as I'm actually using it.  Fiddling around with settings and all that nonsense is only well and good after continued and meaningful use.  After an extended period of use I'll better know what shortcomings a particular application may have and how I could alter its behaviour.  For instance, right now I'm thinking about how vim continues a word on another line.  This is something I could look into changing.  Right now the important thing is to write those words.  
+
+Ok, couldn't wait.  Checking out some solutions right now.  Some are suggesting saving the journal files as .wiki.  Foling isn't something necessarily that I need - simple command searching and regex (a reason to learn) will probably suffice.  Another suggestions is a user created journal (JNL) system - txtfmt.webs.com/jnlandtxtfmt.htm .  I'll leave it alone for now and send my efforts elsewhere.
+
+Tomorrow is going to be a busy, yet productive day.  Going to learn some JavaScript and hopefully get the assignment finished or at least well under way.  I'll finish the domain diagram for the third 3716 assignment.  Also, I'll hope to at least finish the video portions of the udacity course.
+
+
+
+
+Date: March 7, 2012 at 00:00:00 AM NST
+
+
+
+March 7 2012
+
+I had job interviews with Adfinitum and Compusult yesterday.  The former went spectacuarly well.  Ed has a very easy going way about him and you can sense the mutual respect when you speak with him.  I really hope I get the job as I think it would undoubtedly be the best learning opportunity.  Compusult seems very businessy and a 'dead-end' type of place that excels at stifling creativity.  I could be very wrong about that, but regardless, I'm just not interested in their product.
+
+Tomorrow is the big day... when I hear if I was the first choice for any of the three employers.  I'm still not sure what I will do if Compusult is my only option.  I have to keep in mind that any experience in the field, good or bad, will be valuable.  
+
+
+
+
+
+Date: March 11, 2012 at 00:00:00 AM NST
+
+
+
+March 11, 2012.
+
+I've decided on a first project.  I will build a simple calculator, maybe adding some functions that I find I use often enough for it to be useful to me.  Why create something that isn't useful?  Add a factorial function... think of others.  I hope to spend a few days designing the program and sit down and write a GUI midweek.  Before coding I should have a good idea of what functions to include.
+
+Goals of finished product:
+1. Easy to use
+2. Functional
+3. Extendable
+
+Goals of this exercise:
+1. Document all changes
+2. Learn GUIs in java
+3. Upload to Github to practice version control
+4. Have fun! :)
+
+
+March 12, 2012
+
+I learned a little about the Java swing package yesterday.  I'll have to make extensive use of that for this project.  Also, I'll have to make sure I package the program correctly.  Buttons/Graphics in one package, functions in another?  Something anyways.  
+
+As to the functionality I was thinking of implementing a second interface that would have common conversions build in: temperature, cooking measurements, and others?  Maybe I could attempt to develop this for Android afterwards and actually use it.
+
+
+...
+
+I think I'm going about this in the right way... taking my time with the idea, thinking of the design, and finding the resources necessary (java tutorials in this case) to make it happen.  We'll see.  If not tomorrow, then Wednesday I'll be ready to sit down and have a go at some Java GUI stuffs.
+
+
+April 28, 2012
+
+Well... I certainly dropped this idea.  Maybe I'll come back to it... though not anytime in the near near future.
+
+Feburary 26, 2013
+
+I've recently made a calculator in Objective C for the iphone course.  Fun
+times.   There have been some take aways from the project - the same that I
+learned (and should have retained) in graphics.  Domain knowledge is
+incredibly important and should be sought out before putting a thought into
+the coding.  It wasn't until I was halfway through coding the project that I
+actually picked up a calculator and played around with it.  There were a
+number of things that I haven't even considered that become absolutely
+essential to it's proper representation in code.  Anyhoo... calculator done? 
+
+
+Date: March 18, 2012 at 00:00:00 AM NST
+
+
+
+March 18 2012
+
+It's time to get serious about learning.  Books.  Think.  Talk to people.  Do.  Not necessarily in that order,
+but that's the general idea.  I'm not learning anything by reading comments on ycomb or reddit.  I'm fooling 
+myself in thinking that it helps.  If I'm not contributing then I'm not using it properly... there is no conversation
+that I'm involved in.  
+
+I ordered Head First HTML/CSS and the Penguin Russian Course today.  I really think it's going to be the start of 
+something good in my learning.  
+
+I'm going to start thinking of a more appropriate way of organizing this journal.  Individual text files is just
+not going to work.  How do I know if I said such a thing on a particular day?  Perhaps I could tag the individual
+files with keywords relevant to the entry.  Hmmm... maybe!
+
+
+
+Date: March 21, 2012 at 00:00:00 AM NST
+
+
+
+March 21 2012
+
+-attended Rebecca's lecture at the MUN math building (general cominbinatorial game theory + current research)
+-picked up a copy of Vim - Vi-Improved at the library.  Going to start learning me some neato Vim tricks.
+
+
+
+Date: March 22, 2012 at 00:00:00 AM NST
+
+
+
+March 22 2012
+
+-read a little bit of the captains daughter today.  Perhaps I'll pick it back up at home... It was unfamiliar at first but on relflection I do remember the story.. somewhat.
+
+-read both The Prisoner of the Caucus's and The Death of Ivan Illych
+yesterday.  Ivan Illych is a tragic figure, but there are many of him
+in the world.  People ain't living 'right'.  It'll hit them someday...
+it'll hit me someday sooner I can only hope.  So it goes.
+
+-Rebecca let me bring her powerbook to school today.  I must say it's
+quickly growing on me.  The screen is wonderfully clear and the typing is
+much improved over my Dell.  I still find that the command key is 
+awkwardly placed and should be swapped with 'fn'.
+
+-the order from IKEA was finalized today.  Looking forward to putting 
+together some furniture!  Going to get some nice tea and a music and 
+make us a home one of these days.  Should be fun!
+
+-last night and this afternoon a great calm has settled over me.  Though
+it may not be long lasting has been persisting for longer than I ever
+remember it doing in the past.  I should make a note of this(...).  
+
+-need to get to work on the networking project with Colin.  We 
+need these marks.
+
+
+Date: March 24, 2012 at 00:00:00 AM NST
+
+
+
+March 24 2012
+
+-Haven't taken any codeine pills in a couple of days and I'm feeling
+the general achiness that comes along with that.  I must remember that 
+this is merely temporary and soon my body will not expect 'help'.
+
+
+
+
+Date: March 25, 2012 at 00:00:00 AM NST
+
+
+
+March 25 2012
+
+-worked with CK on the 3715 project today.  Finally!  I finally got a 
+AJAX/jetty combo to work... albeit on a very simple program... 
+but but WOOOO! Definitely going to be able to come up with something to present on Thursday now.  It won't be groundbreaking... but it should be 
+usable :)
+
+-went and peaked into the house today.  The living room has been painted 
+and the rest primed.  Should only be a week/week & 1/2 before we move in.
+Getting excited.  The cats will soon be with us.
+
+-need to have a productive week coming up.  the semestre is almost over, 
+time to srounge up the marks that are available.
+
+- Pooshkin is born
+
+-no more pills, no more smoking.
+
+- everyone is fine
+
+- be a producer... if I do wake up early in the morning, use that time
+to read or to think, doodle, or exercise.  Don't waste time with email,
+reddit, news, etc... Those things can always wait.  There are very
+few times in my daily life when checking my email is the most
+important thing I could be doing.  
+
+-start small.  rather than telling myself to get at an assignment, why not
+take time to simply look and think about the assignment without any
+intention of writing.  I'm sure not only would I be more willing to
+actually get started, I would enjoy it!  
+
+-be happy, you're alright.
+
+
+
+
+Date: April 28, 2012 at 00:00:00 AM NST
+
+
+
+	It's been a while since I've written.  Another birthday has passed, we've moved into a new home, and I've recently gotten a hair cut.  What a month!
+
+	The house is wonderful.  It's so nice to finally have a space to call our own.  We are incredibly lucky to be in this position (especially me!).
+
+	Just started playing TERA today.  Perhaps that will turn into a somewhat healthy online adventure.  It's been a rough ... oh... ten years?  I'm so passive and uninvolved online even though I have a desire to be the opposite.  Here we go.
+
+Date: May 13, 2012 at 00:00:00 AM NST
+
+
+
+May 13th
+
+Haven't done much of anything lately.  Need to get the ol' brain ticking
+again.  Rebecca has had a rough week with the pregnancy - lots of pain, occasional spotting.  It's kind of taking our minds away from the very likely possibility of bringing another human being into the world.  Hopefully the worst is over.
+
+Anyhow... I need to start doing something.  Y'know, one of those things that people say they do all the time - something that sounds fun or ambitious (I write everyday, I make cupcakes every week, etc.).  I'm not sure if I'm ready to write something, but I should at least take the time to think of doing so.  No harm in it.  Everything is fine.  La dee da.
+
+I've done my neck (Pain Free) stretches 3 days straight now.  My goal is 7 and then to do the conditioning exercises for a few weeks.  Feeling better already... far from perfect... but it really does work.  Doing these stretches is also and excuse to just be with myself for 20 minutes... like a meditation of sorts.
+
+Date: June 27, 2012 at 00:00:00 AM NST
+
+
+
+June 27 2012
+
+I'm starting to come around to thinking about school/CS lately.  I'm not at that point where I'm actually doing anything
+worth mentioning, but I'm getting there. Thinking about using one editor over another (for what I don't know) is not very
+productive.  Here I am writing text, thinking how the line breaks matter.  It is highly unlikely that I'll ever come back to this and care about it's presentation.  If I do... then I'm sure I can figure out how to use regular expressions in a script
+to work with the text how I like.  Can't be that hard!  I need to stop worrying about learning things that don't apply to me
+right now.  When I need something I will learn it.  Sounds good! 
+
+That said, the first thing I should do (when ready) is to pick up where I left off with the regexp/programming languages 
+course on Udacity.  I feel like it will be an incredibly useful skill to have and one that can easily be transferred from
+language to language. 
+
+That's enough for now... my arms are tired (wrappin' arms!)
+
+
+Date: July 23, 2012 at 00:00:00 AM NST
+
+
+
+
+"Let's play the alphabet game."
+"Which one?  The sign or the anything outside-the-car game?"
+"The second one.  Asphalt."
+"We're almost there.”
+She points to the black SUV in front them.  "Bumper."
+"Ok, I give up, you win."
+"Car, Dirt, Evergreen..."
+He gives in. "ATV, Broken line."
+A look of protest quickly flashes, unseen, over her face.  The rules clearly state - surely someone must have written them down somewhere - that adjectives do not count.  Victorious, she smiles and pauses, giving him a chance to catch up.
+
+
+# Notes
+######
+## July 23, 2012
+Ok, so what happens with this little scenario?  Nothing drastic, I know that.  When Rebecca and I play this we often get distracted by something else entirely.  Maybe they don't finish the game, maybe we don't want them to... Hmm, instead of heading to a destination they should be returning home - there will be more of an opportunity to reflect on where they have just come from.  Where that is will require some more thought...
+
+
+#writing
+
+
+
+Date: August 29, 2012 at 00:00:00 AM NST
+
+
+
+I've been married for one year and 2 days.  The wedding day was without question one of the happiest days of my life.  The worst days of my life have occured in that one year and 2 days.  We lost three potential children... of course we were only aiming for one.  I still have hope.  That's important.  This year will be better.  I think we'll be parents in 2013.
+
+Right now I have a sprained ankle.  It is generally an injury of the active.  I'm pleased to say that I fit the bill this summer.  I've been enjoying running a great deal.  It has allowed me to do things I never dreamed I would do.  That's important in anyone's life.
+
+Love
+
+Date: September 12, 2012 at 00:00:00 AM NST
+
+
+
+Sept 19, 2012 - Sudoku Problem and Wasted Time
+
+	I was tackling a common programming assignment problem today and realizes after about an hour or so that I was going about it in completely the wrong way.  I was trying to brute force an answer. Like cracking a password... it ain't a good idea.  Learn the problem.  Really get a feel for what it's asking you to produce.  Before putting finger to keyboard, allow yourself an adventure.  Delve into the greater pict... ok enough of that.  For example, this problem was on coding a Sudoku checker - a simple C program that checks whether a given 9x9 matrix is in fact a valid, completed, Sudoku puzzle.  I had more than a general idea about how to go about doing it so I figured why not just go ahead and start coding?  Big mistake.  I wasted at least an hour by forgetting a very basic rule of sudoku (that the 3x3 grid needed to be checked as well... embarassing, yes).  That could have easily been prevented by spending 10-20minutes doing some thinking about the game and about traversing a large matrix.
+	Anyways, my point, and my advice to myself, is to always know a problem completely before searching/rushing for an answer.
+
+
+
+
+Rest your tired voice 
+the song has been sung
+Born of flame, 
+and hardened tongue 
+It clenched your teeth,
+and left you undone.
+
+
+
+Its hung up there
+an empty sack
+can't go forward
+can't go back
+(so say we all - francey)
+

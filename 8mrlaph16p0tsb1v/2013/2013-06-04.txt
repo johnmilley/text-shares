@@ -1,0 +1,12 @@
+Date: June 4, 2013 at 00:00:00 AM NST
+
+
+
+I've just finished setting up my little workstation downstairs. The desktop is running Ubuntu with i3 on top of it (a minimalist tiling manager setup).  The laptop and ipad will serve as a multimedia function (udacity and paddy respectively). Ok... enough of this setting up nonsense! It's time to do some goddamn work!
+
+**One**:  write. Finish writing that blog post I had been working on.  It doesn't need to end up being seen by anyone but write it like it would be. Craft it. Don't write is conversationally like I am doing right now.
+
+**Two**: code.  Work on completing unit 2 of the web app Udacity course. It's very important at this time that I read and write code and explore some areas in more detail than what was covered in my courses (databases, web design, html5, C programming). 
+
+Wasting time on getting the perfect setup is a silly waste of time.  In the end all that matters is the work that was done. From working I will find what setup feels right to me. Only experience can do that.
+

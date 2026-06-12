@@ -1,0 +1,40 @@
+Date: November 24, 2020 at 00:00:00 AM NST
+
+
+
+# November 24, 2020
+
+**Exercise:** shred, walk, yoga (20m)
+
+**Reading:** not much
+
+**Food:** leftovers
+
+---
+
+## Entries
+
+Another drinkless day. Tomorrow is boardgame night. Not sure I can continue the streak.
+
+
+
+
+---
+
+
+## Brief Notes
+
+
+10:29 AM:  moonbase8
+
+
+10:29 AM:  batch file practical question completed! One my best. Generating a faux system report using batch. Faux in the sense that it is not particularly useful, but it does give them some insight, I hope, into what a real report could look like. 
+
+
+10:24 PM:  youtube-dl -f140 -x 'https://www.youtube.com/watch?v=VqoyKzgkqR4' -- from reddit. This is how I would rip mp3 from youtube video... apparantly. Will investigate tomorrow. I want to start downloading mp3s again. Look into how Apple Music handles them.
+
+
+---
+
+
+

@@ -1,0 +1,56 @@
+Date: September 20, 2020 at 00:00:00 AM NST
+
+
+
+# September 20, 2020
+
+**Sleep:** Ok. Better. I expect a couple of ok night-sleeps are necessary to overcome Friday night's error.  
+
+**Exercise:** Run (pipeline)
+
+**Reading:** Nada
+
+**Cooked:** Pork roast, whole wheat bread, sourdough bread, butternut squash soup.  
+
+---
+
+## Entries
+
+ 9:32 AM:  Updated my end-of-day journal action this morning. It now performs the following actions:
+
+1. Append daily brief notes to the daily entry
+2. Save file dialog (save to File -> Journal Backup -> YYYY -> MM)
+3. Archive all files in Inbox
+
+ 1:36 PM:  In the kitchen most of the day
+
+Baking/ cooking:
+- sourdough bread (needs to ferment overnight)
+- whole wheat honey bread
+- Pork loin roast in instant pot (upcoming)
+- Butternut squash soup
+
+ 2:09 PM: Going to the theatre on Tuesday—the first time since the start of the pandemic. We continue to register no cases, most days. There has been no community spread since early in the pandemic (4 months ago, at least). We wear our masks, sanitize our hands, and continue to put some distance between ourselves and other—thought I feel that distance has shrunk over time, perhaps most notably after the mask policy came into effect. So, Tenet, in theatres! Looking forward to it.
+
+
+
+
+---
+
+
+## Brief Notes
+
+
+ 9:36 AM:  Spending a lot of time fine tuning my journal actions this weekend. Hoping to finalize it by the end of the day and then start living with it. Hoping that this work will pay off in developing actions for work-related notes. The goal is to save time, not spend all my time tinkering. A common danger of the Automator—not knowing when to stop.  
+
+
+ 4:25 PM:  Back from viewing 43 Sunset again. It's a very nice house, but that price tag of $440,000 is just too much. At best we'll get it for 420. A lot of money for a house with unpaved driveway and no shed/garage. The view is great, the location seems nice. I worry about the recreational vehicles.
+
+
+ 8:06 PM:  Drafts and shortcuts are providing me new ways to feel clever. I'm happy with my new _journal img_ shortcut. It lets me choose an img from Photos, convert to jpeg, save to a Dropbox folder, create Dropbox share link, prompt for a description, copy a fully populated markdown image link to the clipboard. It's lovely :) For internet images there is the extra manual step at the beginning of saving the photo to the Photos app. Easily done. 
+
+
+---
+
+
+

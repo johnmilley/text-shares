@@ -1,0 +1,414 @@
+Date: July 27, 2020 at 00:00:00 AM NST
+
+
+
+# Brief Notes 27-31
+
+27: 10:36 AM—
+A new era of plain text begins! 
+
+27: 10:44 AM—
+Format is key. Think about how I would search through these text files with terminal commands and base the format on ease of data retrieval. 
+
+* csv? 
+* take a sample entry (this one) and try and isolate the date, the time, the text.
+
+27: 10:48 AM—
+Types of plain text files:
+
+* journal/thoughts
+* things kids say. Could I just codify this in thoughts for the sake of keeping things in one place? M, T, L, R.  Followed by colon. 
+
+27: 10:51 AM—
+L: The qtip that he placed in the nerf gun is soft like kitty. 
+
+L: Running his feet through R's beautiful hair 
+
+27: 8:49 PM—
+Today I had that lovely feeling of communion—shared physical activity, in this case—in seeing another runner on the Steep trails. 
+
+Goes down easy with the already euphoric feeling of a long trail run. Completed what I thought was the beginning of Leg 4, but is in actual fact the last 4-5km of Leg 3 and the first 5km of Leg 4
+
+28: 12:28 AM—
+I haven't consistently read books in a long long time. A need unfulfilled. 
+
+28: 8:26 AM—
+Keep your head up. Physically keep your head up.  Morning body regrets. 
+
+28: 8:19 PM—
+5.5k run home from frisbee at Atlantic. Good game. Players: Rebecca, Lisa, Darrian, Judith, Jenna, Jon, Jeremy, John (me), and Victor. Judith brought India. Theodore had some Ginger Ale. 
+
+28: 10:02 PM—
+Down Dog. 15min. First time in... over a month? Felt good. 
+
+Read some more of Coraline today with Theodore. It's getting suspenseful. This is the first more serious youth novel we've read together.  Few pictures.  His aatention wanders at times, but he is keeping up with the main plot very well. 
+
+Ventured into the New Yorker app on my new iPhone 11. Great experience that I've been missing out on. Listened to two stories and read most of one. 
+
+Reading and yoga. Two great things for the soul. 
+
+29: 10:06 AM—
+Another test of new drafts using migrated actions. 
+
+29: 10:06 AM—
+This is a test of the new Drafts app. Migrated action from Drafts 4.
+
+29: 10:09 AM—
+Migrating actions to draft 5: define file extension in file name and then migrate. 
+
+2020-07-29-10-33-30—
+Testing a new format 
+07/29/20: 10:40 AM
+Testing a new format 
+
+
+07/29/20: 10:41 AM
+Testing a new format 
+
+
+07/29/20: 10:41 AM
+Testing a new format 
+
+07/29/20: 10:41 AM
+Testing a new format 
+
+07/29/20: 10:42 AM
+Ok, that's settled. 
+
+07/29/20: 10:46 AM
+Testing file name
+
+07/29/20: 10:47 AM
+Testing file name
+
+07/29/20: 1051
+Testing time format
+
+07/29/20: 10:56
+Time
+
+07/29/20: 18:15
+Good 8k run. Up Pipeline, down Ginger. 
+
+Feeling lethargic now. Only seem to have energy while running. Can run for hours. Cannot get off the couch when home.  
+
+07/29/20: 20:37
+Had a lot of fun playing Virtua Fighter 2 on the Sega mini with Theodore. 
+
+07/31/20: 09:32
+Yesterday: Took kids to Y park (near Eastside). Made grilled cheese for lunch, left over spaghetti for supper. Frisbee at Atlantic field and a run home. 
+
+07/31/20: 10:43
+Men often look for a saviour in a partner. Such expectations can and never should be met. A good relationship often boils down to a agreeable division of labour. Agreeableness in this case typically involves sacrifice, more so from the position of the one who takes on the greatest portion of emotional baggage that relationships require.
+
+In my own experience, that falls to the woman. I take the form of an immovable object from time to time. With persistence (nevertheless), movement becomes possible. Growth of the person, and subsequently, the relationship, becomes possible. 
+
+Both actions—that of moving and of being moved—take great feats of strength. Both come with their resentments, however deserved or not. The flower is admired and photographed in full bloom. The struggle to beauty is there though overlooked. The flower remembers. 
+
+The day to day, each trip through the great machinery, is made easier with a plan of attack. 
+
+07/31/20: 10:46
+M: I like it better when you pee. (Meaning that she misses me during a poop?)
+
+07/31/20: 15:40
+Lawrence and the pink baba (bottle)
+
+07/31/20: 19:37
+Running Marble to Massey with Trudy and John D tomorrow morning. 2020 is pretty weird. 
+
+Just learned that Aaron, from 2 doors up, is also running the 50k and he also offered we go for a run sometime. 
+
+I wish I was a little less introverted. It is my nature. Still... it's a bit much. 
+
+07/31/20: 22:02
+STEEP has just been canceled and I am right sad about that. 
+
+
+Date: November 13, 2020 at 00:00:00 AM NST
+
+
+
+# 2020-11-13: why do anything
+
+*November 13/14, 2020*
+
+**My day-dream answer to a question about songwriting—why do it at all?**
+
+I just write them and sing them and put them out there.  
+I don't expect anything of them... not yet. Maybe someday I will.  
+But right now, honestly, talking to you is the most I've thought about them.  
+I sung them months ago.  
+...  
+I have no audience to keep me moving.  
+There is no intimacy. 
+I write and I forget, I write and I forget—but sometimes I hit on a note.
+An abrupt and pleasant surge radiates. My heart is triumphant, for a moment.  
+A sweet moment. 
+
+> I don't know why I do this, but I do know why I keep going.
+
+## Evaluation (God how formal sounding is that... leave it)
+
+I am testing out a new format tonight. Write something in a "brief" note (a text file in the Drafts app that is created to be compiled into a daily journal entry via Scripting capabilities of the Drafts program—my essential mobile application. I went back to Apple after 3 years of Android for Drafts.)
+
+- We all daydream and believe ourselves to be other selves. More daring, better liked, respected, loved. Triumphant, combative, feared, and hated. 
+- pursuit of art. if it feels good, do it.
+	- chipping away at the self. revealing your layers to yourself and letting pieces of those layers form art. you are in it. you are of it.  it is a solemn and individual act. it is important—if to no one else, then to yourself. you know that, and that *must* be part of why you do it.
+- *I do know why I keep going*
+	- I enjoy the certainty of this lyric (i was going to interject with self-doubt here, laughing jealously at my own confidence, but I quelled it with the validation I got from my CSNII students today—Jonny, Adam, and Tyler. Great kids. John I, Chris H, Navjot, Jayant, Gurbhej. All good people.)
+	- momentum is easy to keep up (getting it is the hard part—you need momentum to get momentum)
+	- doing --> motivation --> more doing
+	- "Every object persists in its state of rest or uniform motion in a straight line unless it is compelled to change that state by forces impressed on it."
+		- God, how beautiful is that. An object in motion, stays in motion. The modern take learned in school and idiom.
+			- That law is rich beyond Newton's intentions, though to be fair I have never read him so I have no fucking clue what I am talking about. Ok... combing amazon for folio copies of Newton now...
+			- ok.. read Newton and them come back to this...
+
+
+Date: September 3, 2021 at 00:00:00 AM NST
+
+
+
+# Sept 3 - 16
+
+## 3
+
+Lawrence's first day at daycare. Not a happy camper yet, but he'll get there. COVID setup is a bit much (as is the norm in NL).
+
+Teaching begins next week and I am unprepared. Today and tomorrow will be used to get to a place of comfort with a big first week looming.
+
+Time to stop fussing over COVID regulations and plow through what I have to do.
+
+Got this big ol' office to myself with a big window overlooking the last highest point of STEEP (top of Curry Climb). Going to dance more in it. Bring in my resistance bands. Take advange of this fucked up situation.
+
+omphalos - center (also greek navel thingamajig... which is in the center of .. something.. i forget.)
+
+Started reading Ulysses tonight. Will this be the moment that I finally fucking wise up and begin reading more>? WILL IT?!?!?!
+
+Kids were all adorable tonight. 
+
+Finished the lone Field Note notebook of the summer. I will not abandon the pen and pencil so easily next summer.
+
+## 4
+
+I need to cool it on the frustration over farcical Covid regulations in place 
+
+### Bringing Lawrence in and out of daycare:
+
+1. Fill out questionnaire. Print my name twice, Lawrence once. Sign my name once. Tick 'No' for the 5 questions that if 'Yes' would place me in the COVID-possible category of people.
+2. Call the daycare drop-off/pick-up number. *Yes, I have filled out the questionnaire. No, I did not answer 'Yes' to any of the questions.*
+3. Put on mask; gather Lawrence.
+4. Get let into the building. Check phone for time. Sign the sign-in sheet. Sanitize hands.
+5. Wait by Toddler room
+6. Convince Lawrence to leave me (this part will get easier)
+7. Walk back to desk. Sign out. Sanitize hands.
+8. Repeat steps 1–5. Gather Lawrence from Toddler room. (He beams with new maturity as he leaves with backpack on)
+9. Repeat step 7.
+10. Go home.
+
+**IDEA**
+
+Record an album of covers, or a video of covers that have caused me to pick up a guitar over the years.
+
+initial playlist thoughts:
+
+Travis (standing on my own, 20)
+Sarah Harper (Cancer song, Coffee Stain)
+Tegan and Sara (When I Get Up, Somebody to Love)
+Stereophonics
+Blowin' in the Wind
+Farewell Angelina
+Josh Ritter (Naked as a Window) 
+Daniel Johnston (True Love Will Find You In the End)
+Jeff Tweedy (I Know What It's Like)
+John Prine (Speed at the Sound of Loneliness, Bruised Orange)
+
+*evening...*
+
+i am high on all cylinders 
+i am high on cannabis
+indica shit
+potent shit
+
+ew... poop. not poop.
+
+
+listening to Tommy Makem 
+
+picture of the brooklyn bridge (google photo stream on Shield): reminds me of your public mirth at *The Punchline*. 
+
+i am talking in pictures from here on out. —Frances, 47. A retired oh gtodngiamtooscaredtobecreativemyneckfeelsfunny..ha..ha..nervousmoments...just headphonesaroundneckcreatingtotalnecknumbness. 
+
+I see all of my terrible possible selves. Every day they are with me. My lows and my possible lows. My privilege keeps me swimming. 
+
+Still. I live cryptically with myself. Closed, unopened, and deceptive. Stop wallowing you at-times miserable bastard. You are better than this.
+
+there is a lot there
+
+i need to take time to explore. explore me.
+
+this is all there is of me. this will end. it is a certainty. another certainty is feeling. i choose not to feel. —feel, you fool.
+
+## 05
+
+Jazz on a Summer Day (1959) + Lego Y-Wing
+
+Idea: a short story that focuses on the audience members singled out by the director of this film. lady dancing on the roof, people dancing in crowd, guy snapping and jiving a touch off-beat to Louis Armstrong, ladies swooning over Chuck Berry, their others sheepishly jealous and admiring at the same time.
+
+Satchmo autocorrecting to 'watch out' ... Satchmo in St. John's [Satchmo in St. John's](https://secreteast.ca/2018/12/satchmo-in-st-johns-louis-armstrongs-lost-1959-newfoundland-visit/) 
+
+Leonard Cohen - Live in London
+
+May 2008. Holy Heart Auditorium, St. John's. God bless him. He deserves a god and their blessing.
+
+His age begs adulation and forgiveness. He becomes perfect in our absolution. Age begets absolution. 
+
+He swore by his song. That is all anyone can ask of anyone else. Show me true so I may place you on the right rung.
+
+...
+
+Trying a new ramen. It's ladies night and the man is alone.
+
+Samyang HOT Chicken Flavor Ramen. Black packaging. You know it's going to be experience when the package is black. Typically, a bad one.
+
+Real spiced chomp just now. It got to the place where more would be better than none at all. 
+
+...
+
+I want to, once, compose a paragraph of stream of conciousness in the sing-song voice of James Joyce.
+
+...
+
+Oh god. It burns. I am frantic.
+
+...
+
+I expect to cry tomorrow. If I finish, it will be at a wounded animal’s pace. 
+
+...
+
+Good night. 
+
+## 07
+
+I ran 50km and did not cry. My legs ache. Stairs are terrible things. Sore sore sore.
+
+The final day of summer. Back to work and school week begins tomorrow. I'll be giving a welcome session to CSN students tomorrow. I don't know what I'm doing. Nobody does. I'll get through the official stuff, let the other instructors introduce theme selves and use the rest for Q&A. It can be short, that's fine.
+
+Going to bath today, take in the words of James Joyce, and be there for the kids. 
+
+Marianne, Lawrence, and I made Sourdough Toutons and eggs this morning. Marianne cracked and stirred the eggs and shaped most of the tout ones. Good breakfast.
+
+
+## 09
+
+I never remember what I write in here. I am doubtful that I will look at these words again. They are numbers. They are 1s and 0s. 
+
+I should return more to my physical notebooks for journaling. Or both or none or not.
+
+COVID measures were manageable. Parents wore masks to the Kindergarten classroom. Kindergarteners were able to remove their masks while in the classroom.
+
+I am hopeful that they will get a normal year while many communities in Canada will not. We are fortunate to live on this sparsely populated island. Our travelling workforce may end it all, but the odds are in our favour.
+
+Today's headlines:
+
+### Theodore enters Grade 2 through the Learning Star Entrance
+
+### Marianne eagerly enters the education system
+
+### Dad cooks rice pilaf, jerk chicken, Italian seasoning and paprika chicken, over-salted carrots, and corn and broccoli from frozen.
+
+### Lawrence loudly asks for green tractor, blue tractor, screwdriver, box, toy, etc, etc, to help him sleep; nothing works.
+
+### Mom spent a few hours in a clean house until we came home and uncleaned it
+
+## 10
+
+Wrote one piece course content with this software (iA Writer) today; additional course information (in addition to the campus provided outlines). 
+
+Google Drive remains the ideal place to store all the content. The idea of markdown slides is appealing, but the work flow for them is less than ideal. Could try putting my efforts into creating a nicer slide template for my course.
+
+**Slide template ideas**
+
+* simple text (I like the iA writer fonts -- see about using them)
+* off white background, less intense black font
+* orange accents
+
+**Mandalorian Rewatch**
+
+* appreciate the willingness to slow a scene down. Episode 5 (what I am currently watching) has a lot of these moments on Tatooine.
+* Peak Star Wars
+
+**Ulysses**
+
+Began Ulysses ~ a week ago, in earnest. 100 pages in. Focused reading. A pleasure. 
+
+**Related** Began Odyssey audiobook while running my 50k. Listened to it for 4 hours of the 8 hour run. Odysseus is currently in Hades.
+
+I drink for the tragedies to come.
+
+## 11
+
+Productive day at work.
+
+Raptors v. Celtics. Game 7. Tonight.
+
+
+## 12
+
+Movie night: *I am Thinking of Ending Things*
+
+Strained. Psychoanalysis stopped cold. 
+
+She’s gone to bed. It’s up to me, again, to follow. 
+
+I hear crying above. The window is closing.
+
+**Lawrence Interupting**
+
+Ideas, ideas... 
+
+What to write *about*. That is the problem. 7u4. mmij;popoooooooool,../..........;;;\\\\]]]]]]]]]][][][][][][][][]][]]
+[\[\[\[\ (Lawrence typing)
+
+Lawrence
+Daddy
+
+## 13
+
+Been thinking about the Kaufman movie a lot. Figured most of it out with the help of some minor details from a reddit thread. I'm happy to have *gotten* it on the first viewing. Acting was wonderful. Jessie Buckly is wonderful.
+
+Lunch at Erin and Johnston's. Nice conversation, nice food. Happy to have them back. Disc golf is in the near future—maybe as early as next week.
+
+Pizza supper with Aidan and Lisa.
+
+Learning about the Shortcuts app. A programming/scripting app, basicsally. I enjoy this type of computing, but I still fear that it may be more of a distraction rather than anything truly productive? 
+
+Added to Computer reminders: create similar scripts in bash (using python) for the shortcuts that I create here. See if there are similarities. Explore the benefits of graphical drag-and-drop interface over "real" programming. Write about it.
+
+![The kids are into painting rainbows these days.](Journal_Images/paintingRainbows.jpeg)
+
+Be a #50 in someone's life.
+
+## 14
+
+I am going to stop drinking again. For a little while. A few days. A night. 
+
+The pickles I bought last week for a burger supper with Erin and Johnston and kids fucking blow. 
+
+
+## 15
+
+Yoga and no booze for two days straight. Feels good. Ditch the edibles and I may start having productive evenings! (personally productive—reading, music, writing). Regular practice. 20minutes, 30minutes. Write a schedule and stick to it. Build good habits. Ditch the bad. Piece of cake! Om nnom nom nom nonm.
+
+"Many a good man's fault."
+
+Earlier to bed I go. Scarf down a few chips on the way I will. 
+
+## 16
+
+![Lawrence in his daycare loaned overalls.](Journal_Images/overalls.jpeg)
+
+Late to wake up. Kids rushwalked to the bus. Lawrence grabbed the Golden Gate Bridge from the fridge door. Memories from almost a year ago. 
+
+
+
