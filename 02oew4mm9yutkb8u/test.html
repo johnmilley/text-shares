@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>test</title>
+<link rel="stylesheet" href="_assets/style.css">
+<link rel="stylesheet" href="_assets/highlight.css">
+<script>
+/* apply the saved theme before first paint to avoid a flash */
+(function () {
+  var t = localStorage.getItem("text-share-theme");
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+})();
+</script>
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+<label for="nav-toggle" id="nav-button" title="contents">☰</label>
+<button id="theme-toggle" title="switch light / dark">◐</button>
+<nav id="sidebar">
+<div class="share-name"><a href="index.html">testing</a></div>
+<ul><li><a class="current" href="test.html">test</a></li></ul>
+</nav>
+<main>
+<article>
+<h1 id="this-is-a-test">This is a test</h1>
+<table><thead><tr><th>1</th><th>2</th><th>3</th></tr></thead><tbody>
+<tr><td>one</td><td>two</td><td>threeeeeeee</td></tr>
+</tbody></table>
+<p><code>console.log('go poo')</code></p>
+<p><strong>Example 1</strong></p>
+<p><span class="broken-link">missing: Screenshot From 2025-12-18 20-49-24.png</span>
+<strong>Example 2</strong></p>
+<p><span class="broken-link">missing: v0.2.png</span></p>
+
+</article>
+<section id="comments"><script src="https://giscus.app/client.js"
+  data-repo="johnmilley/text-shares" data-repo-id="R_kgDOS4ImxQ"
+  data-category="Announcements" data-category-id="DIC_kwDOS4Imxc4C_FD7"
+  data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
+  data-emit-metadata="0" data-input-position="bottom"
+  data-theme="preferred_color_scheme" data-lang="en"
+  crossorigin="anonymous" async></script></section>
+<footer>shared from <strong>text</strong></footer>
+</main>
+<script src="_assets/highlight.min.js"></script>
+<script>
+hljs.highlightAll();
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  var html = document.documentElement;
+  var dark = html.dataset.theme
+    ? html.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  html.dataset.theme = dark ? "light" : "dark";
+  localStorage.setItem("text-share-theme", html.dataset.theme);
+});
+</script>
+</body>
+</html>
