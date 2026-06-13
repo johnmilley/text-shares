@@ -1,0 +1,26 @@
+# text — Sepia: warm manuscript paper, in the spirit of focused writing apps.
+# See text-dark.toml for the token reference.
+
+name = "Sepia"
+dark = false
+
+[colors]
+bg = "#f4ecd8"
+bg-panel = "#ece1c8"
+bg-hover = "#e5d8bc"
+fg = "#5b4636"
+fg-muted = "#a08e76"
+accent = "#a0653a"
+heading = "#4a3526"
+link = "#8b5e34"
+tag = "#7a6a8a"
+quote = "#8a7660"
+code = "#7d5a2b"
+code-bg = "#ebdfc5"
+border = "#e0d2b4"
+cursor = "#5b4636"
+selection = "#e7d7b5"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

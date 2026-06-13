@@ -1,0 +1,26 @@
+# text — Everforest: soft green-on-warm-grey, designed for long comfortable
+# sessions. See text-dark.toml for the token reference.
+
+name = "Everforest"
+dark = true
+
+[colors]
+bg = "#2d353b"
+bg-panel = "#343f44"
+bg-hover = "#3d484d"
+fg = "#d3c6aa"
+fg-muted = "#859289"
+accent = "#a7c080"
+heading = "#dbbc7f"
+link = "#7fbbb3"
+tag = "#d699b6"
+quote = "#859289"
+code = "#83c092"
+code-bg = "#343f44"
+border = "#3d484d"
+cursor = "#d3c6aa"
+selection = "#475258"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

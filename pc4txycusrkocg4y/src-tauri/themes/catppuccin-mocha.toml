@@ -1,0 +1,26 @@
+# text — Catppuccin Mocha: soothing dark pastels (catppuccin.com).
+# See text-dark.toml for the token reference.
+
+name = "Catppuccin Mocha"
+dark = true
+
+[colors]
+bg = "#1e1e2e"
+bg-panel = "#181825"
+bg-hover = "#313244"
+fg = "#cdd6f4"
+fg-muted = "#7f849c"
+accent = "#cba6f7"
+heading = "#b4befe"
+link = "#89b4fa"
+tag = "#94e2d5"
+quote = "#a6adc8"
+code = "#fab387"
+code-bg = "#27273a"
+border = "#313244"
+cursor = "#f5e0dc"
+selection = "#45475a"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>text</title>
+    <script type="module" src="/src/main.ts" defer></script>
+  </head>
+
+  <body>
+    <header id="titlebar" data-tauri-drag-region>
+      <button id="btn-sidebar" title="Toggle sidebar (Ctrl+\)" tabindex="-1">◧</button>
+      <span id="titlebar-title" data-tauri-drag-region>text</span>
+      <span id="titlebar-buttons">
+        <button id="tb-min" title="Minimize" tabindex="-1">&#x2013;</button>
+        <button id="tb-max" title="Maximize" tabindex="-1">&#x25A1;</button>
+        <button id="tb-close" title="Close" tabindex="-1">&#x2715;</button>
+      </span>
+    </header>
+
+    <div id="app">
+      <aside id="sidebar">
+        <nav id="sidebar-tabs">
+          <button data-tab="files" class="active" title="Files">files</button>
+          <button data-tab="search" title="Search everywhere (Ctrl+Shift+F)">search</button>
+          <button data-tab="links" title="Backlinks (Ctrl+Shift+B)">links</button>
+        </nav>
+
+        <section id="pane-files" class="pane active">
+          <div id="folder-row">
+            <span id="folder-name" title="Switch folder (Ctrl+Shift+O)">no folder</span>
+            <span class="row-actions">
+              <button id="btn-new-note" title="New note (Ctrl+N)">+</button>
+              <button id="btn-new-folder" title="New folder"><svg width="13" height="13" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M1.5 3h4.2l1.6 2h7.2v8H1.5z"/><path d="M8 8.2v3.6M6.2 10h3.6" stroke-linecap="round"/></svg></button>
+              <button id="btn-collapse" title="Collapse all folders">⊟</button>
+            </span>
+          </div>
+          <div id="tree" tabindex="-1"></div>
+        </section>
+
+        <section id="pane-search" class="pane">
+          <input id="search-input" placeholder="search folder…" spellcheck="false" />
+          <div id="search-results" class="hit-list"></div>
+        </section>
+
+        <section id="pane-links" class="pane">
+          <div id="backlinks-title" class="pane-caption">no note open</div>
+          <div id="backlinks-results" class="hit-list"></div>
+        </section>
+
+        <footer id="sidebar-foot">
+          <button id="btn-daily" title="Today's daily note (Ctrl+Shift+D)">today</button>
+          <button id="btn-calendar" title="Daily-note calendar (Ctrl+Shift+C)">calendar</button>
+          <button id="btn-share" title="Share this folder as a website (Ctrl+Shift+S)">share</button>
+          <button id="btn-config" title="Settings (Ctrl+,)">settings</button>
+        </footer>
+      </aside>
+
+      <div id="resizer"></div>
+
+      <main id="main">
+        <div id="tabbar">
+          <div id="tabs"></div>
+          <button id="tab-new" title="New tab (Ctrl+T)">+</button>
+        </div>
+        <div id="content">
+        <div id="pane1">
+        <div id="editor-host"></div>
+        <button id="btn-table" hidden>view as table</button>
+        <div id="image-view" hidden>
+          <div id="image-tools">
+            <button id="img-rot-l" title="Rotate left 90°">⟲</button>
+            <button id="img-rot-r" title="Rotate right 90°">⟳</button>
+            <span class="tools-sep"></span>
+            <button id="img-shrink" title="Scale down">−</button>
+            <span id="img-scale" title="Scale (aspect kept)">100%</span>
+            <button id="img-grow" title="Scale up">+</button>
+            <span class="tools-sep"></span>
+            <button id="img-reset" title="Discard pending edits" hidden>reset</button>
+            <button id="img-save-copy" title="Save edited image as a copy" hidden>save copy</button>
+            <button id="img-overwrite" title="Overwrite the original file" hidden>overwrite</button>
+          </div>
+          <div id="image-stage"><img alt="" /></div>
+        </div>
+        <div id="audio-view" hidden>
+          <div class="audio-box">
+            <div id="audio-name"></div>
+            <audio controls></audio>
+          </div>
+        </div>
+        <div id="table-view" hidden></div>
+        <div id="pdf-view" hidden>
+          <div id="pdf-tools">
+            <span id="pdf-name"></span>
+            <span class="tools-sep"></span>
+            <span id="pdf-page-info">
+              page
+              <input id="pdf-page-input" type="text" inputmode="numeric" title="Type a page number and press Enter" />
+              <span id="pdf-page-total"></span>
+            </span>
+            <span class="tools-sep"></span>
+            <button id="pdf-shrink" title="Zoom out">−</button>
+            <span id="pdf-zoom" title="Zoom (relative to page width)">100%</span>
+            <button id="pdf-grow" title="Zoom in">+</button>
+            <button id="pdf-fit" title="Fit page width">fit</button>
+          </div>
+          <div id="pdf-pages"></div>
+        </div>
+        <div id="welcome">
+          <div class="welcome-box">
+            <h1>text</h1>
+            <p>a plain editor for a folder of plain files</p>
+            <button id="btn-open-folder">open folder</button>
+            <p class="welcome-keys">
+              ctrl+p switch &nbsp; ctrl+shift+f search &nbsp; ctrl+t new tab &nbsp; ctrl+/ shortcuts
+            </p>
+          </div>
+        </div>
+        </div>
+        <!-- second editor pane (Ctrl+Shift+\ cycles vertical/horizontal/off) -->
+        <div id="pane2" hidden>
+          <div id="pane2-bar">
+            <span id="pane2-name">empty — open a file here</span>
+            <button id="pane2-close" title="Close split">×</button>
+          </div>
+          <div id="editor2-host"></div>
+        </div>
+        <!-- rendered markdown preview (Ctrl+Shift+M) -->
+        <div id="preview" hidden>
+          <div id="preview-bar">
+            <span id="preview-name">preview</span>
+            <button id="preview-close" title="Close preview (Ctrl+Shift+M)">×</button>
+          </div>
+          <div id="preview-body"></div>
+        </div>
+        </div>
+        <!-- issue bar: hidden unless something needs attention -->
+        <footer id="status" hidden>
+          <span id="status-text"></span>
+          <span id="status-actions"></span>
+        </footer>
+      </main>
+    </div>
+
+    <!-- window resize grips (no native decorations) -->
+    <div class="grip" data-dir="North"></div>
+    <div class="grip" data-dir="South"></div>
+    <div class="grip" data-dir="East"></div>
+    <div class="grip" data-dir="West"></div>
+    <div class="grip" data-dir="NorthEast"></div>
+    <div class="grip" data-dir="NorthWest"></div>
+    <div class="grip" data-dir="SouthEast"></div>
+    <div class="grip" data-dir="SouthWest"></div>
+  </body>
+</html>

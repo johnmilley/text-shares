@@ -1,0 +1,26 @@
+# text — Rosewater: soft warm light theme on the Rosé Pine Dawn palette.
+# See text-dark.toml for the token reference.
+
+name = "Rosewater"
+dark = false
+
+[colors]
+bg = "#faf4ed"
+bg-panel = "#f3ebe3"
+bg-hover = "#ede4da"
+fg = "#575279"
+fg-muted = "#9893a5"
+accent = "#d7827e"
+heading = "#b4637a"
+link = "#907aa9"
+tag = "#56949f"
+quote = "#797593"
+code = "#b8863b"
+code-bg = "#f1e8de"
+border = "#ede0d4"
+cursor = "#575279"
+selection = "#efdfd0"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

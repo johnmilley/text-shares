@@ -1,0 +1,26 @@
+# text — Text Light: paper-white counterpart to Text Dark.
+# See text-dark.toml for the token reference.
+
+name = "Text Light"
+dark = false
+
+[colors]
+bg = "#faf9f6"
+bg-panel = "#f1efe9"
+bg-hover = "#e9e6dd"
+fg = "#2c2c2a"
+fg-muted = "#8b8880"
+accent = "#4a6e8a"
+heading = "#1c1c1a"
+link = "#41637c"
+tag = "#6d5f8f"
+quote = "#6b6f72"
+code = "#6d5f3f"
+code-bg = "#efede5"
+border = "#e2dfd6"
+cursor = "#2c2c2a"
+selection = "#d9e2ea"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

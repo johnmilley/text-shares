@@ -1,0 +1,26 @@
+# text — Fjord: cool blue-grey dark theme on the Nord palette.
+# See text-dark.toml for the token reference.
+
+name = "Fjord"
+dark = true
+
+[colors]
+bg = "#2e3440"
+bg-panel = "#292e39"
+bg-hover = "#353b49"
+fg = "#d8dee9"
+fg-muted = "#7b88a1"
+accent = "#88c0d0"
+heading = "#8fbcbb"
+link = "#81a1c1"
+tag = "#b48ead"
+quote = "#90a0b8"
+code = "#ebcb8b"
+code-bg = "#353b49"
+border = "#3b4252"
+cursor = "#d8dee9"
+selection = "#434c5e"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

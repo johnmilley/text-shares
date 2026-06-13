@@ -1,0 +1,26 @@
+# text — Cyberpunk Green: matrix-style terminal green on near-black.
+# See text-dark.toml for the token reference.
+
+name = "Cyberpunk Green"
+dark = true
+
+[colors]
+bg = "#0a0f0a"
+bg-panel = "#0d140d"
+bg-hover = "#142214"
+fg = "#33ff66"
+fg-muted = "#1f9940"
+accent = "#00ffaa"
+heading = "#7dffa0"
+link = "#00e5ff"
+tag = "#a3ff57"
+quote = "#2bd45e"
+code = "#c7ff7a"
+code-bg = "#0f1a0f"
+border = "#1b2e1b"
+cursor = "#33ff66"
+selection = "#1a4426"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

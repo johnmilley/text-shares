@@ -1,0 +1,26 @@
+# text — Zenburn: the original low-contrast "coding in a cave" palette,
+# warm greys and faded pastels. See text-dark.toml for the token reference.
+
+name = "Zenburn"
+dark = true
+
+[colors]
+bg = "#3f3f3f"
+bg-panel = "#383838"
+bg-hover = "#4f4f4f"
+fg = "#dcdccc"
+fg-muted = "#9f9f93"
+accent = "#8cd0d3"
+heading = "#f0dfaf"
+link = "#8cd0d3"
+tag = "#dc8cc3"
+quote = "#7f9f7f"
+code = "#dfaf8f"
+code-bg = "#383838"
+border = "#4a4a4a"
+cursor = "#dcdccc"
+selection = "#5a5a52"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

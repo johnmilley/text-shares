@@ -1,0 +1,26 @@
+# text — Ayu Mirage: the minimalist mid-dark ayu variant.
+# See text-dark.toml for the token reference.
+
+name = "Ayu Mirage"
+dark = true
+
+[colors]
+bg = "#1f2430"
+bg-panel = "#1c212b"
+bg-hover = "#2a3041"
+fg = "#cccac2"
+fg-muted = "#707a8c"
+accent = "#ffcc66"
+heading = "#ffd580"
+link = "#5ccfe6"
+tag = "#d4bfff"
+quote = "#bae67e"
+code = "#f29e74"
+code-bg = "#242936"
+border = "#2a3041"
+cursor = "#ffcc66"
+selection = "#34455a"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

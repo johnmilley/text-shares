@@ -1,0 +1,29 @@
+# Changes
+
+- add ctrl+shift+enter add line above
+- 
+
+(backlog clear — everything from the 2026-06-13 pass shipped; see
+history_changes.txt. Latest: split view + markdown preview are now per-tab,
+each with its own top bar. Earlier: image pan, pdf page jump, calendar year
+nav, more light themes, file-tree icons, folder-switcher affordance + folder
+pinning, image paste from more sources, theme + dataview docs, and the
+folder-share PoisonError fix.)
+
+---
+
+claude: no need to read below this
+
+
+(previous batch done — see history_changes.txt; notes/questions below)
+
+- comments on shared pages: implemented via giscus. One manual step left for you: install the giscus app on johnmilley/text-shares (github.com/apps/giscus) — GitHub has no API for that. Until then the comment box on shared pages stays blank.
+- shared-page comments map per page (GitHub Discussions thread per path), so students can report errata on the exact page. If you'd rather have inline/per-paragraph comments (hypothes.is style), say the word — different mechanism.
+- dataview is a deliberate subset (LIST/TABLE/TASK + FROM/SORT/LIMIT over frontmatter, tags, tasks). If you hit a query you miss from the real plugin, list it here.
+<!-- - markdown reference note replaces the 1-pager PDF idea: open it from settings and it brings the live preview up beside it. If you still want a printable PDF cheat-sheet, share the folder and print that page — the new print styles make it clean. -->
+
+
+**jflatjal**
+
+*fjalfja*
+

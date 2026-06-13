@@ -1,0 +1,23 @@
+/* highlight.js theme mapped onto the site's --hl-* tokens (style.css), so
+   code colors track the light/dark toggle. Palette: GitHub light/dark. */
+pre code.hljs { display: block; overflow-x: auto; padding: 0; }
+code.hljs { padding: 3px 5px; }
+.hljs { color: var(--hl-fg); background: transparent; }
+.hljs-doctag, .hljs-keyword, .hljs-meta .hljs-keyword, .hljs-template-tag,
+.hljs-template-variable, .hljs-type, .hljs-variable.language_ { color: var(--hl-keyword); }
+.hljs-title, .hljs-title.class_, .hljs-title.class_.inherited__,
+.hljs-title.function_ { color: var(--hl-title); }
+.hljs-attr, .hljs-attribute, .hljs-literal, .hljs-meta, .hljs-number,
+.hljs-operator, .hljs-selector-attr, .hljs-selector-class, .hljs-selector-id,
+.hljs-variable { color: var(--hl-attr); }
+.hljs-meta .hljs-string, .hljs-regexp, .hljs-string { color: var(--hl-string); }
+.hljs-built_in, .hljs-symbol { color: var(--hl-builtin); }
+.hljs-code, .hljs-comment, .hljs-formula { color: var(--hl-comment); }
+.hljs-name, .hljs-quote, .hljs-selector-pseudo, .hljs-selector-tag { color: var(--hl-name); }
+.hljs-subst { color: var(--hl-fg); }
+.hljs-section { color: var(--hl-attr); font-weight: 700; }
+.hljs-bullet { color: var(--hl-bullet); }
+.hljs-emphasis { color: var(--hl-fg); font-style: italic; }
+.hljs-strong { color: var(--hl-fg); font-weight: 700; }
+.hljs-addition { color: var(--hl-addition-fg); background-color: var(--hl-addition-bg); }
+.hljs-deletion { color: var(--hl-deletion-fg); background-color: var(--hl-deletion-bg); }

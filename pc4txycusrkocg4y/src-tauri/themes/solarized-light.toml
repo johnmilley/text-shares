@@ -1,0 +1,26 @@
+# text — Solarized Light: Ethan Schoonover's classic low-contrast prose palette.
+# See text-dark.toml for the token reference.
+
+name = "Solarized Light"
+dark = false
+
+[colors]
+bg = "#fdf6e3"
+bg-panel = "#eee8d5"
+bg-hover = "#e8e1cd"
+fg = "#657b83"
+fg-muted = "#93a1a1"
+accent = "#268bd2"
+heading = "#586e75"
+link = "#268bd2"
+tag = "#6c71c4"
+quote = "#859900"
+code = "#cb4b16"
+code-bg = "#f3ecd9"
+border = "#e8e0c9"
+cursor = "#657b83"
+selection = "#e3dcc4"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

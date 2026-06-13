@@ -1,0 +1,26 @@
+# text — Catppuccin Macchiato: the standard soothing dark (catppuccin.com).
+# See text-dark.toml for the token reference.
+
+name = "Catppuccin Macchiato"
+dark = true
+
+[colors]
+bg = "#24273a"
+bg-panel = "#1e2030"
+bg-hover = "#363a4f"
+fg = "#cad3f5"
+fg-muted = "#8087a2"
+accent = "#c6a0f6"
+heading = "#b7bdf8"
+link = "#8aadf4"
+tag = "#8bd5ca"
+quote = "#a5adcb"
+code = "#f5a97f"
+code-bg = "#2b2f44"
+border = "#363a4f"
+cursor = "#f4dbd6"
+selection = "#494d64"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

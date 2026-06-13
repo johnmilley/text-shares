@@ -1,0 +1,26 @@
+# text — Monokai Calm: monokai's voice, desaturated to easy-evening levels.
+# See text-dark.toml for the token reference.
+
+name = "Monokai Calm"
+dark = true
+
+[colors]
+bg = "#2a2a26"
+bg-panel = "#232320"
+bg-hover = "#32322d"
+fg = "#d8d8d2"
+fg-muted = "#8f8f85"
+accent = "#a6c969"
+heading = "#dfd06e"
+link = "#87c5c0"
+tag = "#c489b2"
+quote = "#9c9c90"
+code = "#d3a96c"
+code-bg = "#32322d"
+border = "#3a3a34"
+cursor = "#d8d8d2"
+selection = "#45453d"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

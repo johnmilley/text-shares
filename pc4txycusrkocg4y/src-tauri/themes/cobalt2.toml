@@ -1,0 +1,26 @@
+# text — Cobalt 2: rich blue with orange accents (Wes Bos's classic).
+# See text-dark.toml for the token reference.
+
+name = "Cobalt 2"
+dark = true
+
+[colors]
+bg = "#193549"
+bg-panel = "#15232d"
+bg-hover = "#1f4662"
+fg = "#e1efff"
+fg-muted = "#7d9cb8"
+accent = "#ffc600"
+heading = "#ffc600"
+link = "#9effff"
+tag = "#fb94ff"
+quote = "#9bb2c5"
+code = "#a5ff90"
+code-bg = "#122738"
+border = "#234e6d"
+cursor = "#ffc600"
+selection = "#0050a4"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

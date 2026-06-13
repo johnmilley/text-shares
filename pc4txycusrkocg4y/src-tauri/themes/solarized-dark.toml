@@ -1,0 +1,26 @@
+# text — Solarized Dark: Ethan Schoonover's precision palette (ethanschoonover.com/solarized).
+# See text-dark.toml for the token reference.
+
+name = "Solarized Dark"
+dark = true
+
+[colors]
+bg = "#002b36"
+bg-panel = "#073642"
+bg-hover = "#0a4250"
+fg = "#93a1a1"
+fg-muted = "#586e75"
+accent = "#b58900"
+heading = "#fdf6e3"
+link = "#268bd2"
+tag = "#6c71c4"
+quote = "#859900"
+code = "#2aa198"
+code-bg = "#073642"
+border = "#073642"
+cursor = "#93a1a1"
+selection = "#0e4a59"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

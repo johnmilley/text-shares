@@ -1,0 +1,26 @@
+# text — Classic Paper: warm cream and charcoal, like good stationery.
+# See text-dark.toml for the token reference.
+
+name = "Classic Paper"
+dark = false
+
+[colors]
+bg = "#faf6ec"
+bg-panel = "#f2edde"
+bg-hover = "#e9e2cf"
+fg = "#3a3733"
+fg-muted = "#8e887b"
+accent = "#7a6a52"
+heading = "#262421"
+link = "#5a6e58"
+tag = "#7a6488"
+quote = "#6e6657"
+code = "#8a5a3b"
+code-bg = "#f1ebdb"
+border = "#e3dcc8"
+cursor = "#3a3733"
+selection = "#e4dbc1"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

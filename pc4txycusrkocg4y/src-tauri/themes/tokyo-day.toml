@@ -1,0 +1,26 @@
+# text — Tokyo Day: the bright daytime variant of Tokyo Night.
+# See text-dark.toml for the token reference.
+
+name = "Tokyo Day"
+dark = false
+
+[colors]
+bg = "#e1e2e7"
+bg-panel = "#d6d8df"
+bg-hover = "#cbcfdb"
+fg = "#3760bf"
+fg-muted = "#7086b5"
+accent = "#2e7de9"
+heading = "#006a83"
+link = "#2e7de9"
+tag = "#9854f1"
+quote = "#587539"
+code = "#b15c00"
+code-bg = "#d6d8df"
+border = "#c4c8da"
+cursor = "#3760bf"
+selection = "#b6bfe2"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

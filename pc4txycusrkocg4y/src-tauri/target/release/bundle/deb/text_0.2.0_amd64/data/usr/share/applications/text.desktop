@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=
+Comment=A Tauri App
+Exec=text
+StartupWMClass=text
+Icon=text
+Name=text
+Terminal=false
+Type=Application

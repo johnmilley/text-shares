@@ -1,0 +1,26 @@
+# text — Midnight: true deep black/onyx, for OLED and late nights.
+# See text-dark.toml for the token reference.
+
+name = "Midnight"
+dark = true
+
+[colors]
+bg = "#000000"
+bg-panel = "#0a0a0c"
+bg-hover = "#16161a"
+fg = "#c8c8cc"
+fg-muted = "#5e5e66"
+accent = "#5e8cc4"
+heading = "#e4e4e8"
+link = "#5e8cc4"
+tag = "#8d84b8"
+quote = "#84888c"
+code = "#b0a184"
+code-bg = "#0e0e10"
+border = "#1a1a1e"
+cursor = "#c8c8cc"
+selection = "#22344a"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

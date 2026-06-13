@@ -1,0 +1,26 @@
+# text — Terminal Amber: classic 80s monitor phosphor glow.
+# See text-dark.toml for the token reference.
+
+name = "Terminal Amber"
+dark = true
+
+[colors]
+bg = "#1a1004"
+bg-panel = "#201405"
+bg-hover = "#2e1d08"
+fg = "#ffb000"
+fg-muted = "#9a6a08"
+accent = "#ffd75f"
+heading = "#ffd75f"
+link = "#ffc83d"
+tag = "#e89c2c"
+quote = "#cf8f10"
+code = "#ffcf70"
+code-bg = "#241607"
+border = "#3a250a"
+cursor = "#ffb000"
+selection = "#4a3008"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

@@ -1,0 +1,26 @@
+# text — Dark Academia: moody library, old ink and lamplight.
+# See text-dark.toml for the token reference.
+
+name = "Dark Academia"
+dark = true
+
+[colors]
+bg = "#23201b"
+bg-panel = "#1d1a16"
+bg-hover = "#322d25"
+fg = "#d6c8ad"
+fg-muted = "#857a64"
+accent = "#c2974f"
+heading = "#e8d9b8"
+link = "#a98f5c"
+tag = "#9d8466"
+quote = "#a89a7d"
+code = "#b87f4d"
+code-bg = "#2a261f"
+border = "#373127"
+cursor = "#d6c8ad"
+selection = "#453d2e"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

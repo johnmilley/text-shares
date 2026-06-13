@@ -1,0 +1,26 @@
+# text — Night Owl: deep blue dark theme after Sarah Drasner's palette.
+# See text-dark.toml for the token reference.
+
+name = "Night Owl"
+dark = true
+
+[colors]
+bg = "#011627"
+bg-panel = "#01111d"
+bg-hover = "#0b2942"
+fg = "#d6deeb"
+fg-muted = "#637777"
+accent = "#82aaff"
+heading = "#c792ea"
+link = "#82aaff"
+tag = "#7fdbca"
+quote = "#697098"
+code = "#ecc48d"
+code-bg = "#0b2942"
+border = "#122d42"
+cursor = "#80a4c2"
+selection = "#1d3b53"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

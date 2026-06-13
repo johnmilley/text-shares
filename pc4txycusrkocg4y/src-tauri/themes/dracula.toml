@@ -1,0 +1,26 @@
+# text — Dracula: the high-contrast purple/pink dark classic (draculatheme.com).
+# See text-dark.toml for the token reference.
+
+name = "Dracula"
+dark = true
+
+[colors]
+bg = "#282a36"
+bg-panel = "#21222c"
+bg-hover = "#343746"
+fg = "#f8f8f2"
+fg-muted = "#6272a4"
+accent = "#bd93f9"
+heading = "#ff79c6"
+link = "#8be9fd"
+tag = "#50fa7b"
+quote = "#bcc4e0"
+code = "#f1fa8c"
+code-bg = "#2f3140"
+border = "#343746"
+cursor = "#f8f8f2"
+selection = "#44475a"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

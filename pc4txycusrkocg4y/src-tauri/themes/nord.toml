@@ -1,0 +1,26 @@
+# text — Nord: the arctic, muted blue palette (nordtheme.com).
+# See text-dark.toml for the token reference.
+
+name = "Nord"
+dark = true
+
+[colors]
+bg = "#2e3440"
+bg-panel = "#3b4252"
+bg-hover = "#434c5e"
+fg = "#d8dee9"
+fg-muted = "#7b88a1"
+accent = "#88c0d0"
+heading = "#eceff4"
+link = "#81a1c1"
+tag = "#b48ead"
+quote = "#a3be8c"
+code = "#ebcb8b"
+code-bg = "#3b4252"
+border = "#3b4252"
+cursor = "#d8dee9"
+selection = "#434c5e"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

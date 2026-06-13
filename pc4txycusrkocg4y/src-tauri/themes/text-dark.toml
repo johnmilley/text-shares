@@ -1,0 +1,39 @@
+# text — theme file
+#
+# Drop a copy of this file in this folder, change the colors, and it appears
+# in the theme picker (Ctrl+Shift+T). An optional sibling <name>.css file is
+# injected verbatim for anything tokens can't reach.
+#
+# tokens:
+#   bg         editor background          fg         body text
+#   bg-panel   sidebar / panel background fg-muted   secondary text, syntax marks
+#   bg-hover   hover / active row         accent     interactive highlights, cursor line
+#   heading    markdown headings          link       links and wikilinks
+#   tag        #tags                      quote      blockquotes
+#   code       inline code / monospans    code-bg    code block background
+#   border     hairlines                  cursor     caret
+#   selection  text selection
+
+name = "Text Dark"
+dark = true
+
+[colors]
+bg = "#151618"
+bg-panel = "#1b1d20"
+bg-hover = "#222428"
+fg = "#d4d4d0"
+fg-muted = "#84878c"
+accent = "#8fb4d8"
+heading = "#e8e6e0"
+link = "#8fb4d8"
+tag = "#a8a3c7"
+quote = "#9aa3a8"
+code = "#c9b99a"
+code-bg = "#1f2125"
+border = "#26282c"
+cursor = "#d4d4d0"
+selection = "#2c3a48"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

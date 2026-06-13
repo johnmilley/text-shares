@@ -1,0 +1,26 @@
+# text — GitHub Light: stark white and gray, straight off the platform.
+# See text-dark.toml for the token reference.
+
+name = "GitHub Light"
+dark = false
+
+[colors]
+bg = "#ffffff"
+bg-panel = "#f6f8fa"
+bg-hover = "#eaeef2"
+fg = "#1f2328"
+fg-muted = "#656d76"
+accent = "#0969da"
+heading = "#1f2328"
+link = "#0969da"
+tag = "#8250df"
+quote = "#656d76"
+code = "#cf222e"
+code-bg = "#f6f8fa"
+border = "#d8dee4"
+cursor = "#1f2328"
+selection = "#b6d7ff"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

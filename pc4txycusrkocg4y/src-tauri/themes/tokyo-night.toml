@@ -1,0 +1,26 @@
+# text — Tokyo Night: neon dusk-to-night blues and purples.
+# See text-dark.toml for the token reference.
+
+name = "Tokyo Night"
+dark = true
+
+[colors]
+bg = "#1a1b26"
+bg-panel = "#16161e"
+bg-hover = "#292e42"
+fg = "#a9b1d6"
+fg-muted = "#565f89"
+accent = "#7aa2f7"
+heading = "#c0caf5"
+link = "#7dcfff"
+tag = "#bb9af7"
+quote = "#9ece6a"
+code = "#e0af68"
+code-bg = "#1f2335"
+border = "#292e42"
+cursor = "#c0caf5"
+selection = "#33467c"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

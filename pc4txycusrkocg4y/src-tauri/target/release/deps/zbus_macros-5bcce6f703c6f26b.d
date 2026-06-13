@@ -1,0 +1,10 @@
+/home/johnathan/dev/text/src-tauri/target/release/deps/zbus_macros-5bcce6f703c6f26b.d: /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/lib.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/error.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/iface.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/proxy.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/utils.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/../README.md
+
+/home/johnathan/dev/text/src-tauri/target/release/deps/libzbus_macros-5bcce6f703c6f26b.so: /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/lib.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/error.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/iface.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/proxy.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/utils.rs /home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/../README.md
+
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/lib.rs:
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/error.rs:
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/iface.rs:
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/proxy.rs:
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/utils.rs:
+/home/johnathan/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zbus_macros-5.16.0/src/../README.md:

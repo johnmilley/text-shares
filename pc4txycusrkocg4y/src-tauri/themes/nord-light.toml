@@ -1,0 +1,26 @@
+# text — Nord Light: the Snow Storm palette, frost accents on cool white.
+# See text-dark.toml for the token reference.
+
+name = "Nord Light"
+dark = false
+
+[colors]
+bg = "#eceff4"
+bg-panel = "#e5e9f0"
+bg-hover = "#dde3ec"
+fg = "#2e3440"
+fg-muted = "#60718c"
+accent = "#5e81ac"
+heading = "#2e3440"
+link = "#5e81ac"
+tag = "#b48ead"
+quote = "#4c566a"
+code = "#bf616a"
+code-bg = "#e5e9f0"
+border = "#d8dee9"
+cursor = "#2e3440"
+selection = "#d2dae6"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

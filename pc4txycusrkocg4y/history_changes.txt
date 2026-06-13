@@ -1,0 +1,61 @@
+2026-06-13 — backlog pass (uncommitted, in working tree for review)
+
+- folder-share panic fixed: REPO_LOCK was poisoned the first time anything
+  panicked inside a share op, so every later share attempt then panicked at
+  `.lock().unwrap()` with the PoisonError you hit — permanently, until restart.
+  Lock is now poison-tolerant (recovers the guard); one failure can't cascade.
+- pdf page jump: the toolbar page counter is now "page [N] / total" where N is
+  an input — type a page and press Enter to jump there (Esc reverts).
+- calendar year nav: added « / » year buttons beside the month arrows; arrows
+  still page months, Shift+arrows (and PageUp/PageDown) page years.
+- 5 more light themes (was 9 light / 21 dark): Gruvbox Light, Everforest Light,
+  Nord Light, Tokyo Day, One Light. Seeded for existing installs too.
+- folder switcher affordance: the sidebar folder name now reads as a dropdown
+  (caret, hover background) so it's clearly clickable.
+- file-tree filetype icons: faint per-category glyphs (note/image/pdf/audio/
+  video/code/generic) on file rows, à la VS Code / Scrivener.
+- image pan: drag to pan the standalone image viewer once zoomed past 100%
+  (grab cursor; pan is clamped to the overflow and resets when you zoom back).
+- paste images: the editor paste handler now also reads clipboardData.items,
+  so images copied from file managers / browsers embed like screenshots did.
+- pin folders: the switch-folder picker (Ctrl+Shift+O) keeps pinned folders at
+  the top with an inline pin/unpin button; stored in config.pinned_roots. The
+  picker gained an optional per-row action button to support this.
+- docs: docs/THEMES.md (theme authoring) and docs/DATAVIEW.md (query syntax +
+  examples), both linked from the README; README updated for the new behavior.
+- split view + md preview now tied to each tab (done after the rest of the
+  batch): the split mode, the file in the split pane (with its own editor
+  snapshot — cursor/scroll/undo), and whether preview is open are stored per
+  tab and stashed/restored on switch (stashSecondary/teardownSecondary/
+  restoreSecondary, mirroring the pane-1 snapshot path). New tabs start clean;
+  secondary state is session-only (not persisted across app restart). The
+  preview bar now names the note, matching the split pane's bar. Move/rename
+  rewrites each backgrounded tab's split path; closing a tab flushes its split
+  pane first. The single editor2 / #preview DOM is reused — no per-tab DOM.
+
+----
+
+2026-06-12 — backlog pass (uncommitted, in working tree for review)
+
+- margins: already shipped in the previous round (settings → "editor margins", default 24px, small on purpose).
+- editor splitting broken (shift+ctrl+\ did nothing): root cause found — shortcuts were matched on e.key, and Shift turns \ into |, so any shifted punctuation combo could never match. Fixed by also matching the physical (unshifted) key from e.code; the same fix applies to rebinding capture in settings. Split works now.
+- keyboard access to files/folders: Ctrl+E focuses the tree; up/down walk rows, right/left expand/collapse (left also jumps to parent), Enter opens (focus returns to editor), Esc bails. Rebindable ("focus_tree").
+- custom share expiration: the share dialog grew a date field next to the 1 day/1 week/1 month/never presets.
+- calendar view for daily notes: "calendar" button in the sidebar + Ctrl+Shift+C. Month grid, dot on days that have a note, click opens/creates, ‹ › / arrows page months.
+- dataview behaviour (minimal subset): a ```dataview fenced block renders live results under it. LIST / TABLE col1, col2 / TASK, with FROM "folder" and/or #tag, SORT field [DESC], LIMIT n. Fields come from frontmatter; tags from #tags and frontmatter tags:. Backed by a new collect_notes scan with a Rust-side cache invalidated on fs changes.
+- line numbers option: settings → appearance, off by default.
+- current line highlighting: stays default-on, toggle added in settings.
+- new folder button: now a folder icon (inline SVG).
+- sort button + functionality removed; default ordering (dirs-first a–z, daily notes newest-first) kept.
+- light/dark separated in theme selector: grouped light-then-dark with a light/dark tag on each row; typing "light"/"dark" filters.
+- TOC generation: right-click a folder (or the tree background for the root) → "generate table of contents" writes TOC.md with nested wikilinks and opens it. Re-run to refresh.
+- shared pages: nav folders now default to closed; only the path to the current page is open.
+- backticks: selecting text and typing ` wraps it as inline code; inline code now renders monospace with a tinted background even with a proportional editor font.
+- markdown demo note: settings → "markdown reference" writes "markdown reference.md" into the folder (only if missing) and opens it with the preview pane beside it — a live side-by-side instead of a static PDF.
+- comments on shared pages: opt-in checkbox when creating a share; uses giscus over GitHub Discussions in the text-shares repo (mapped per page path). The app enables Discussions and wires the ids automatically; the giscus GitHub App must be installed once by hand (dialog links to github.com/apps/giscus) — GitHub offers no API for app installation.
+- share printing: print stylesheet added (sidebar/chrome hidden, forced light, link URLs shown, sane page breaks) — print-to-PDF from the browser now produces a clean document. Slide-deck notes print one slide per page.
+- sharing with someone else's GitHub: it always used the local gh login (nothing hardcoded); the dialog now bakes in collapsible setup instructions (install gh, gh auth login) and unfolds them automatically when tooling errors happen.
+- ctrl +/- zoom for images and PDFs (ctrl+0 resets) while one is open; font-size keys unaffected otherwise.
+- markdown preview: Ctrl+Shift+M opens a rendered pane beside the editor (same renderer as shared pages, via a new render_preview command). Live update while typing, wikilinks/relative links clickable, embeds resolved. Used by the demo note for side-by-side.
+- presentations: frontmatter "slides: true" turns a note into a slide deck on the shared site — one slide per ---, arrow/space/click navigation, f fullscreen, progress bar, prints one slide per page.
+- video: external-only by decision. Files (mp4/m4v/webm/mov/mkv/ogv) show in the tree; opening one hands the file straight to the system player — no tab, no view change. In-app playback was tried first (asset-protocol streaming + blob fallback) but on Linux WebKitGTK it's software-decoded and codec-dependent (media error 4 on this machine), so it was pulled. App weight: zero either way.

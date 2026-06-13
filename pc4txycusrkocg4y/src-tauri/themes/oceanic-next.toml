@@ -1,0 +1,26 @@
+# text — Oceanic Next: deep sea blues and teals.
+# See text-dark.toml for the token reference.
+
+name = "Oceanic Next"
+dark = true
+
+[colors]
+bg = "#1b2b34"
+bg-panel = "#16232a"
+bg-hover = "#29414f"
+fg = "#cdd3de"
+fg-muted = "#65737e"
+accent = "#6699cc"
+heading = "#c0c5ce"
+link = "#5fb3b3"
+tag = "#c594c5"
+quote = "#99c794"
+code = "#fac863"
+code-bg = "#20323c"
+border = "#29414f"
+cursor = "#cdd3de"
+selection = "#34495a"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

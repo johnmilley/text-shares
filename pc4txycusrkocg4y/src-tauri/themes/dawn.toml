@@ -1,0 +1,26 @@
+# text — Dawn: soft early-morning light, rosy and quiet.
+# See text-dark.toml for the token reference.
+
+name = "Dawn"
+dark = false
+
+[colors]
+bg = "#faf4ed"
+bg-panel = "#fffaf3"
+bg-hover = "#f2e9e1"
+fg = "#575279"
+fg-muted = "#9893a5"
+accent = "#d7827e"
+heading = "#286983"
+link = "#907aa9"
+tag = "#56949f"
+quote = "#797593"
+code = "#ea9d34"
+code-bg = "#f4ede8"
+border = "#ece4db"
+cursor = "#575279"
+selection = "#efe2d4"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

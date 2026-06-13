@@ -1,0 +1,26 @@
+# text — Catppuccin Frappé: soft dark for bright rooms (catppuccin.com).
+# See text-dark.toml for the token reference.
+
+name = "Catppuccin Frappé"
+dark = true
+
+[colors]
+bg = "#303446"
+bg-panel = "#292c3c"
+bg-hover = "#414559"
+fg = "#c6d0f5"
+fg-muted = "#838ba7"
+accent = "#ca9ee6"
+heading = "#babbf1"
+link = "#8caaee"
+tag = "#81c8be"
+quote = "#a5adce"
+code = "#ef9f76"
+code-bg = "#363a4f"
+border = "#414559"
+cursor = "#f2d5cf"
+selection = "#51576d"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

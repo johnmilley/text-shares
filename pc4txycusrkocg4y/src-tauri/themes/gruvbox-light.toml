@@ -1,0 +1,26 @@
+# text — Gruvbox Light: the warm, retro counterpart to Gruvbox.
+# See text-dark.toml for the token reference.
+
+name = "Gruvbox Light"
+dark = false
+
+[colors]
+bg = "#fbf1c7"
+bg-panel = "#f4e8be"
+bg-hover = "#ebdbb2"
+fg = "#3c3836"
+fg-muted = "#7c6f64"
+accent = "#af3a03"
+heading = "#9d0006"
+link = "#076678"
+tag = "#8f3f71"
+quote = "#427b58"
+code = "#b57614"
+code-bg = "#f2e5bc"
+border = "#d5c4a1"
+cursor = "#3c3836"
+selection = "#e6d5a3"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"

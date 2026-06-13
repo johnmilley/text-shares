@@ -1,0 +1,26 @@
+# text — Catppuccin Latte: the clean light flavor (catppuccin.com).
+# See text-dark.toml for the token reference.
+
+name = "Catppuccin Latte"
+dark = false
+
+[colors]
+bg = "#eff1f5"
+bg-panel = "#e6e9ef"
+bg-hover = "#dce0e8"
+fg = "#4c4f69"
+fg-muted = "#8c8fa1"
+accent = "#8839ef"
+heading = "#7287fd"
+link = "#1e66f5"
+tag = "#179299"
+quote = "#6c6f85"
+code = "#fe640b"
+code-bg = "#e6e9ef"
+border = "#dce0e8"
+cursor = "#dc8a78"
+selection = "#ccd0da"
+
+[fonts]
+editor = "ui-monospace, 'JetBrains Mono', 'Fira Code', 'DejaVu Sans Mono', monospace"
+ui = "system-ui, sans-serif"
