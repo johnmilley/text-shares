@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>docs</title>
+<link rel="stylesheet" href="_assets/style.css">
+<link rel="stylesheet" href="_assets/highlight.css">
+<script>
+/* apply the saved theme before first paint to avoid a flash */
+(function () {
+  var t = localStorage.getItem("text-share-theme");
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+})();
+</script>
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+<label for="nav-toggle" id="nav-button" title="contents">☰</label>
+<button id="theme-toggle" title="switch light / dark">◐</button>
+<nav id="sidebar">
+<div class="share-name"><a href="index.html">docs</a></div>
+<ul><li><a href="DATAVIEW.html">DATAVIEW</a></li><li><a href="THEMES.html">THEMES</a></li></ul>
+</nav>
+<main>
+<article>
+<h1>docs</h1><ul class="listing"><li><a href="DATAVIEW.html">DATAVIEW</a></li><li><a href="THEMES.html">THEMES</a></li></ul>
+</article>
+
+<footer>shared from <strong>text</strong></footer>
+</main>
+<script src="_assets/highlight.min.js"></script>
+<script>
+hljs.highlightAll();
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  var html = document.documentElement;
+  var dark = html.dataset.theme
+    ? html.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  html.dataset.theme = dark ? "light" : "dark";
+  localStorage.setItem("text-share-theme", html.dataset.theme);
+});
+</script>
+</body>
+</html>

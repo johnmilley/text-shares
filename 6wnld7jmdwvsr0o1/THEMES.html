@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>THEMES</title>
+<link rel="stylesheet" href="_assets/style.css">
+<link rel="stylesheet" href="_assets/highlight.css">
+<script>
+/* apply the saved theme before first paint to avoid a flash */
+(function () {
+  var t = localStorage.getItem("text-share-theme");
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+})();
+</script>
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+<label for="nav-toggle" id="nav-button" title="contents">☰</label>
+<button id="theme-toggle" title="switch light / dark">◐</button>
+<nav id="sidebar">
+<div class="share-name"><a href="index.html">docs</a></div>
+<ul><li><a href="DATAVIEW.html">DATAVIEW</a></li><li><a class="current" href="THEMES.html">THEMES</a></li></ul>
+</nav>
+<main>
+<article>
+<h1 id="writing-your-own-theme">Writing your own theme</h1>
+<p>A theme is one TOML file in your themes folder. Drop a file in, and it shows
+up in the theme picker (<code>Ctrl+Shift+T</code>) immediately — no rebuild, no restart
+beyond reopening the picker.</p>
+<h2 id="where-themes-live">Where themes live</h2>
+<pre><code>~/.config/text/themes/        Linux
+~/Library/Application Support/text/themes/   macOS
+</code></pre>
+<p>Every bundled theme is written here on first run, so the folder is full of
+working examples you can copy and edit. Editing a bundled file is fine — your
+changes stick, and the app only re-creates a bundled file if it's missing.
+"open themes folder" in the settings panel (<code>Ctrl+,</code>) jumps straight here.</p>
+<h2 id="the-smallest-theme">The smallest theme</h2>
+<pre><code class="language-toml">name = "My Theme"     # the label shown in the picker
+dark = false          # true = grouped under dark, flips UI affordances
+
+[colors]
+bg = "#faf9f6"        # editor background
+fg = "#2c2c2a"        # body text
+accent = "#4a6e8a"    # interactive highlights, the active line, the caret
+</code></pre>
+<p>Anything you leave out falls back to a sane default, so you can start with a
+handful of colors and fill the rest in as you go. To start from a complete
+file, copy <code>text-dark.toml</code> (it carries the full token reference in comments)
+and recolor it.</p>
+<h2 id="color-tokens">Color tokens</h2>
+<table><thead><tr><th>token</th><th>what it paints</th></tr></thead><tbody>
+<tr><td><code>bg</code></td><td>editor background</td></tr>
+<tr><td><code>bg-panel</code></td><td>sidebar / panel background</td></tr>
+<tr><td><code>bg-hover</code></td><td>hovered or active rows</td></tr>
+<tr><td><code>fg</code></td><td>body text</td></tr>
+<tr><td><code>fg-muted</code></td><td>secondary text, syntax marks, the file tree</td></tr>
+<tr><td><code>accent</code></td><td>interactive highlights, cursor-line tint</td></tr>
+<tr><td><code>heading</code></td><td>markdown headings</td></tr>
+<tr><td><code>link</code></td><td>links and <code>[[wikilinks]]</code></td></tr>
+<tr><td><code>tag</code></td><td><code>#tags</code></td></tr>
+<tr><td><code>quote</code></td><td>blockquotes</td></tr>
+<tr><td><code>code</code></td><td>inline code / monospans</td></tr>
+<tr><td><code>code-bg</code></td><td>code-block background</td></tr>
+<tr><td><code>border</code></td><td>hairlines and separators</td></tr>
+<tr><td><code>cursor</code></td><td>the caret</td></tr>
+<tr><td><code>selection</code></td><td>the text selection</td></tr>
+</tbody></table>
+<p>Colors are any CSS color string — <code>#rrggbb</code>, <code>#rgb</code>, <code>rgb(...)</code>, or a named
+color. Everything in the app (editor <em>and</em> chrome) is themed through this one
+token set, so a single file restyles the whole window.</p>
+<h3 id="picking-dark">Picking <code>dark</code></h3>
+<p><code>dark = true</code> / <code>dark = false</code> does two things: it groups the theme under the
+right heading in the picker (type "light" or "dark" to filter), and it tells
+the app which built-in affordances (scrollbars, shadows, the transparency
+checkerboard) to lean light or dark. Set it to match your <code>bg</code>.</p>
+<h2 id="fonts-optional">Fonts (optional)</h2>
+<pre><code class="language-toml">[fonts]
+editor = "ui-monospace, 'JetBrains Mono', monospace"
+ui = "system-ui, sans-serif"
+</code></pre>
+<p><code>editor</code> sets the editor typeface; <code>ui</code> sets the sidebar and dialogs. Omit the
+table to inherit the app defaults. The curated editor fonts listed in the
+README ship inside the app, so naming one always works; any locally installed
+family works too.</p>
+<blockquote>
+<p>The editor-font picker (<code>Ctrl+Shift+E</code>) and the <code>editor_font</code> config key
+override a theme's <code>editor</code> font per your preference, so a theme's font is a
+suggestion, not a lock-in.</p>
+</blockquote>
+<h2 id="the-css-escape-hatch">The CSS escape hatch</h2>
+<p>For anything the tokens don't reach, drop a <code>&lt;name&gt;.css</code> file next to the
+<code>&lt;name&gt;.toml</code> (same stem). It's injected verbatim whenever the theme is
+active. Use it sparingly — token changes are portable across app updates,
+hand-written CSS may not be.</p>
+<pre><code class="language-css">/* my-theme.css — paired with my-theme.toml */
+.cm-editor .cm-content { letter-spacing: 0.01em; }
+</code></pre>
+<h2 id="sharing-a-theme">Sharing a theme</h2>
+<p>A theme is just its <code>.toml</code> (plus an optional <code>.css</code>). Send those file(s) to
+someone and they drop them in their themes folder. That's the whole install.</p>
+
+</article>
+<section id="comments"><script src="https://giscus.app/client.js"
+  data-repo="johnmilley/text-shares" data-repo-id="R_kgDOS4ImxQ"
+  data-category="Announcements" data-category-id="DIC_kwDOS4Imxc4C_FD7"
+  data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
+  data-emit-metadata="0" data-input-position="bottom"
+  data-theme="preferred_color_scheme" data-lang="en"
+  crossorigin="anonymous" async></script></section>
+<footer>shared from <strong>text</strong></footer>
+</main>
+<script src="_assets/highlight.min.js"></script>
+<script>
+hljs.highlightAll();
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  var html = document.documentElement;
+  var dark = html.dataset.theme
+    ? html.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  html.dataset.theme = dark ? "light" : "dark";
+  localStorage.setItem("text-share-theme", html.dataset.theme);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>DATAVIEW</title>
+<link rel="stylesheet" href="_assets/style.css">
+<link rel="stylesheet" href="_assets/highlight.css">
+<script>
+/* apply the saved theme before first paint to avoid a flash */
+(function () {
+  var t = localStorage.getItem("text-share-theme");
+  if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+})();
+</script>
+</head>
+<body>
+<input type="checkbox" id="nav-toggle" hidden>
+<label for="nav-toggle" id="nav-button" title="contents">☰</label>
+<button id="theme-toggle" title="switch light / dark">◐</button>
+<nav id="sidebar">
+<div class="share-name"><a href="index.html">docs</a></div>
+<ul><li><a class="current" href="DATAVIEW.html">DATAVIEW</a></li><li><a href="THEMES.html">THEMES</a></li></ul>
+</nav>
+<main>
+<article>
+<h1 id="dataview-queries">Dataview queries</h1>
+<p>A <code>dataview</code> code block renders a live list, table, or task roll-up of your
+notes right where the block sits. It's a deliberately small subset of the
+Obsidian Dataview plugin — enough to answer "what's in this folder / tagged
+this / still open", without a query language to learn.</p>
+<p>The block stays plain text on disk: the results are drawn as a widget <em>below</em>
+the fence, so sync and export never touch your source.</p>
+<pre><code class="language-markdown">```dataview
+LIST FROM "projects"
+```
+</code></pre>
+<h2 id="query-shape">Query shape</h2>
+<pre><code>&lt;KIND&gt; [columns] [FROM &lt;sources&gt;] [SORT &lt;field&gt; [ASC|DESC]] [LIMIT &lt;n&gt;]
+</code></pre>
+<p>Only <code>&lt;KIND&gt;</code> is required. Order matters: columns come first, then <code>FROM</code>,
+then <code>SORT</code>, then <code>LIMIT</code>. Keywords are case-insensitive.</p>
+<h3 id="kinds">Kinds</h3>
+<table><thead><tr><th>kind</th><th>renders</th></tr></thead><tbody>
+<tr><td><code>LIST</code></td><td>a bullet list of matching notes</td></tr>
+<tr><td><code>TABLE</code></td><td>a table; the first column is always the note, then your columns</td></tr>
+<tr><td><code>TASK</code></td><td>every open <code>- [ ]</code> task in matching notes, linked to its line</td></tr>
+</tbody></table>
+<pre><code class="language-dataview">TABLE status, due FROM #course SORT due
+</code></pre>
+<p><code>TABLE</code> needs at least one column:</p>
+<pre><code>TABLE field1, field2 FROM …
+</code></pre>
+<h3 id="from-choosing-notes">FROM — choosing notes</h3>
+<p><code>FROM</code> takes any mix of <code>"folder"</code> and <code>#tag</code> terms; <strong>all</strong> terms must match.</p>
+<pre><code class="language-dataview">LIST FROM "daily" #review
+</code></pre>
+<ul>
+<li><code>"folder"</code> — notes in that folder (relative to your notes root) or any
+subfolder. Quotes are required.</li>
+<li><code>#tag</code> — notes carrying that tag. Tags come from <code>#tags</code> in the body <strong>and</strong>
+a frontmatter <code>tags:</code> list. A tag also matches its nested children, so
+<code>#project</code> matches <code>#project/text</code>.</li>
+</ul>
+<p>Omit <code>FROM</code> entirely to query every note in the folder.</p>
+<h3 id="sort">SORT</h3>
+<pre><code>SORT name           # A→Z (default ascending)
+SORT mtime DESC      # most recently modified first
+SORT due             # by a frontmatter field
+</code></pre>
+<p>Sort by <code>name</code>, <code>mtime</code> (last modified), <code>path</code>, or any frontmatter field.
+Numbers inside text sort naturally (<code>note2</code> before <code>note10</code>). Unknown fields
+sort as empty.</p>
+<h3 id="limit">LIMIT</h3>
+<pre><code>LIMIT 20
+</code></pre>
+<p>Keep only the first <em>n</em> results (applied after sorting).</p>
+<h2 id="fields-and-columns">Fields and columns</h2>
+<p>Column names and sort fields resolve in this order:</p>
+<ol>
+<li><code>name</code> / <code>file.name</code> — the note's title</li>
+<li><code>mtime</code> / <code>file.mtime</code> — last-modified date (<code>YYYY-MM-DD</code>)</li>
+<li><code>path</code> / <code>file.path</code> — path relative to the root</li>
+<li>otherwise, a key from the note's YAML frontmatter</li>
+</ol>
+<pre><code class="language-markdown">---
+status: active
+due: 2026-07-01
+tags: [course, math]
+---
+</code></pre>
+<pre><code class="language-dataview">TABLE status, due FROM #course SORT due ASC LIMIT 10
+</code></pre>
+<p>A field a note doesn't have renders blank.</p>
+<h2 id="live-updates">Live updates</h2>
+<p>Results refresh as you type and whenever files in the folder change — add a
+note, check off a task, edit frontmatter, and every visible query reflects it.
+Note links in results open the note (tasks open at their exact line).</p>
+<h2 id="what-it-doesn-t-do-yet">What it doesn't do (yet)</h2>
+<p>This is a subset by design. It doesn't have <code>WHERE</code>, expressions, implicit
+fields beyond the few above, inline <code>key:: value</code> fields, <code>GROUP BY</code>, or
+<code>FLATTEN</code>. If you hit a query you miss, jot it in <code>changes.txt</code>.</p>
+
+</article>
+<section id="comments"><script src="https://giscus.app/client.js"
+  data-repo="johnmilley/text-shares" data-repo-id="R_kgDOS4ImxQ"
+  data-category="Announcements" data-category-id="DIC_kwDOS4Imxc4C_FD7"
+  data-mapping="pathname" data-strict="0" data-reactions-enabled="1"
+  data-emit-metadata="0" data-input-position="bottom"
+  data-theme="preferred_color_scheme" data-lang="en"
+  crossorigin="anonymous" async></script></section>
+<footer>shared from <strong>text</strong></footer>
+</main>
+<script src="_assets/highlight.min.js"></script>
+<script>
+hljs.highlightAll();
+document.getElementById("theme-toggle").addEventListener("click", function () {
+  var html = document.documentElement;
+  var dark = html.dataset.theme
+    ? html.dataset.theme === "dark"
+    : matchMedia("(prefers-color-scheme: dark)").matches;
+  html.dataset.theme = dark ? "light" : "dark";
+  localStorage.setItem("text-share-theme", html.dataset.theme);
+});
+</script>
+</body>
+</html>
